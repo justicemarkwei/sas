@@ -70,7 +70,7 @@
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
                                         <div class="display-3">The Power to Know</div>
-                                        <h3 style="line-height: 40px;">
+                                        <h3 style="line-height: 35px;">
                                             "How trusted analytics and innovative software and services empower small and
                                             midsize business to grow."
                                         </h3>
@@ -88,11 +88,11 @@
                             <div class="carousel-item">
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
-                                        <h3 style="line-height: 40px;">
+                                        <h3 style="line-height: 35px;">
                                             Analytics is a must-have for any size business.
                                         </h3>
                                         <br>
-                                        <h3 style="line-height: 40px;">
+                                        <h3 style="line-height: 30px;">
                                             To grow revenues or meet other financial goals,
                                             organizations of all sizes have many of the sames to
                                             answer - how to differentiate, improve the customer
@@ -114,7 +114,7 @@
                             <div class="carousel-item">
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
-                                        <h3 style="line-height: 40px;">
+                                        <h3 style="line-height: 35px;">
                                             The good news is that leader who make decisions based
                                             on data and analytics not only reach these goals, but also
                                             exceed them. And it isnt just global leaders and prominent
@@ -131,7 +131,7 @@
                                     </div>
                                     <div class="col-md-6 my-auto">
                                         <div class="">
-                                            <img class="w-100 h-100" src="img/ch1_img1.png" alt="Chapter 1 Cover Image">
+                                            <img class="w-100 h-100" src="img/ch1_img2.png" alt="Chapter 1 Cover Image">
                                         </div>
                                     </div>
                                 </div>
