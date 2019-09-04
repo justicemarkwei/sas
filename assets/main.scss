@@ -1,0 +1,108 @@
+@font-face {
+font-family: 'Avenir Next LT Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: url(../font/AvenirNextLTPro-Regular.woff);
+}
+@font-face {
+font-family: 'Avenir Next LT Pro Demi';
+font-style: normal;
+font-weight: normal;
+src: url(../font/AvenirNextLTPro-Demi.woff);
+}
+$orange: #f58220;
+$blue: #007dc3;
+$wine: #db3856;
+$light_blue: #adcbe5;
+
+*{
+    font-family: 'Avenir Next LT Pro Regular' !important;
+    font-size: 14px;
+
+    @media (max-width: 380px) {
+        font-size: 12px;
+    }
+}
+.orange{
+    color: $orange;
+}
+.blue{
+    color: $blue;
+}
+.demi{
+    font-family: 'Avenir Next LT Pro Demi';
+}
+.border_bottom{
+     border-bottom: 6px solid $wine;
+}
+.absolute{
+    position: absolute;
+}
+.orange_box_outline_1{
+    position: absolute;
+    border: 15px solid $orange;
+    z-index: -1;
+}
+.orange_box_outline_1{
+    height: 100vh;
+    width: 17%;
+    left: -2%;
+    top: 18%;
+}
+.shadow{
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
+}
+.border_radius{
+    border-radius: 10px;
+}
+
+.site-container-small {
+  width: 80%;
+  margin: 0 auto;
+  
+   @media (max-width: 1250px) {
+      width: 90%;
+    }
+}
+
+.carousel-control-next-icon{
+    background-image: url(../img/next.png);
+}
+.carousel-control-prev-icon{
+    background-image: url(../img/previous.png);
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: unset;
+    cursor: pointer;
+    top: 80%;
+}
+.carousel-control-next{
+    right: 25%;
+}
+.carousel-control-prev{
+    left: 25%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 26px;
+    height: 30px;
+}
+.chapter_box{
+    padding: 10px 10px 40px 55px;
+    min-height: 622px;
+}
+.chapter_number{
+    font-family: 'Avenir Next LT Pro Demi' !important;
+    font-weight: bolder;
+    font-size: 10rem;
+    right:0%;
+    bottom: -14%;
+    opacity: .2;
+}
+.red_line{
+     border-top: 6px solid $wine;
+    width: 5%;
+    left: 0%;
+    top:15%;
+}
