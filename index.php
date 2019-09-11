@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="burgar/slick.css">
     <link rel="stylesheet" href="burgar/style.css">
     <link rel="stylesheet" href="font/font_style.css">
+    <link rel="stylesheet" href="css/floating-links.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -47,7 +48,7 @@
 
         </div>
     </nav>
-
+    <?php include 'floating-links.php'; ?>
     <section class="fh5co-top-banner mb-4">
         <div class="top-banner__inner site-container">
             <!-- <div class="w-100">
@@ -272,8 +273,9 @@
         </div>
     </div>
 
+    <div id="chapter_two"></div>
     <!-- chapter 2 -->
-    <section id="chapter_two" class="mt-5">
+    <section class="mt-5">
         <div class="site-container">
 
             <div class="card shadow border_radius chapter_box">
@@ -367,8 +369,9 @@
         </div>
     </div>
 
+    <div id="chapter_three"></div>
     <!-- chapter 3 -->
-    <section id="chapter_three" class="mt-5 relative">
+    <section class="mt-5 relative">
         <!-- <div class="orange_box_outline_2"></div> -->
         <div class="site-container">
 
@@ -457,70 +460,196 @@
         </div>
     </div>
 
-    <!-- chapter 3 -->
-    <section id="chapter_four" class="mt-5 relative">
+    <div id="chapter_four"></div>
+    <!-- chapter 4 -->
+    <section  class="mt-5 relative">
         <!-- <div class="orange_box_outline_2"></div> -->
         <div class="site-container">
 
-            <div class="card shadow border_radius chapter_box">
-                <div class="card-body ">
-                    <div class="red_line absolute"></div>
-                    <div class="jumbotron text-center">
-                        <h1 class="display-4">Under Contruction</h1>
-                    </div>
+            <div class="card shadow border_radius chapter_box chapter-one-box">
+                <div class="card-body">
+                    <div id="chapter-four" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
 
-                    <div id="chapter-three" class="carousel slide " data-ride="carousel" data-interval="false" hidden>
-                        <div class="carousel-inner ">
+                            <!-- chapter 4/1 -->
+                            <div class="carousel-item active">
 
-                            <!-- chapter 3/1 -->
-                            <div class="carousel-item active ">
-                                <div class="row">
-                                    <div class="col-md-8 m-auto text-white">
-                                        <p class="ch3-cover-text">
-                                            <h1 class="my-auto">
-                                                “We can fine-tune our customer treatment strategies, as well as our customer acquisition efforts, to generate very high returns.”
-                                            </h1>
-                                        </p>
+                                <div class="row mb-2">
+                                    <div class="col-md-6 my-auto">
+                                        <h1 class="display-3">You're the IT Leader</h1>
+                                        <h3 style="line-height: 35px;">
+                                            A key business value in IT is to modernize technology while keeping costs down. SAS believes in staying innovative and lean to enjoy the basic principles: simplicity, affordability, flexibility and relevance.
+                                        </h3>
                                         <p>
-                                            <h2 class="font-italic">
-                                                Jeff Lee, Chief Marketing Officer, Seacoast Bank
-                                            </h2>
+                                            <h3>
+                                                <em>Click here for our white paper on the secret to IT success</em>
+                                            </h3>
                                         </p>
+                                    </div>
+                                    <div class="col-md-6 my-auto">
+                                        <div class="">
+                                            <img class="w-100 h-100" src="img/ch4_cover.png" alt="Chapter 1 Cover Image">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- chapter 4/2 -->
+                            <div class="carousel-item">
+                                <div class="row mb-2">
+                                    <div class="col-md-6 my-auto">
+                                        <h3 style="line-height: 35px;">
+                                            Analytics is the crux of success for businesses today.
+                                        </h3>
+                                        <br>
+                                        <h3 style="line-height: 30px;">
+                                            To grow revenues or achieve other goals, organizations of all sizes are trying to answer the same questions: how best to differentiate, improve the customer experience, boost employee productivity, strengthen service quality and increase market share.
+                                        </h3>
+                                        <p>
+                                            <h3>
+                                                The good news is that leaders who make decisions based on data and analytics not only reach these goals, but also exceed them – and we’re not just talking global leaders and organisations. SAS knows small and midsize organisations can harness the power of analytics, too – because we have seen it.
+                                            </h3>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6 my-auto">
+                                        <div class="">
+                                            <img class="w-100 h-100" src="img/ch4_img1.png" alt="Chapter 4 Cover Image">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- chapter 4/3 -->
+                            <div class="carousel-item">
+                                <div class="row mb-2">
+                                    <div class="col-md-6 my-auto">
+                                        <h3 style="line-height: 35px;">
+                                            To make it happen, you have to first realize that not all analytics are created equal. And you must be willing to transform and adopt analytics, regardless of budget size or IT resources. Analytics must be accessible to all, from novices to experts, with easy-to-use visualization and reporting for business analysts and all users, or R and Python API integration for developers and data scientists.
+                                        </h3>
+                                        <p>
+                                            <h3>
+                                                SAS also knows artificial intelligence (AI) is more than just a buzzword. Using analytics in the cloud with AI gives CIOs and CMOs the flexibility and intelligence they need to help transform and grow their business.
+                                            </h3>
+                                        </p>
+
+                                    </div>
+                                    <div class="col-md-6 my-auto">
+                                        <div>
+                                            <img class="w-100 h-100" src="img/ch1_img2.png" alt="Chapter 1 Cover Image">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- chapter 3/2 -->
+                            <!-- chapter 4/4 -->
                             <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-8 m-auto text-white">
-                                        <p class="ch3-cover-text">
-                                            <h1 class="my-auto">
-                                                “Automating the replenishment process saves stores approximately nine hours a week. In addition, we have significantly fewer stock-outs.”
-                                            </h1>
-                                        </p>
+                                <div class="row mb-2">
+                                    <div class="col-md-6 my-auto">
+                                        <h3 style="line-height: 35px;">
+                                            “Organizations at transformational levels of maturity enjoy increased agility, better integration with partners and suppliers, and easier use of advanced predictive and prescriptive forms of analytics. This all translates to competitive advantage and differentiation, which is even higher for mid sized firms because the opportunity of being early adopters is even greater.”
+                                        </h3>
                                         <p>
-                                            <h2 class="font-italic">
-                                                Johnny Rolsted, Logistics Team Manager, Matas
-                                            </h2>
+                                            <h3 style="line-height: 35px;">
+                                                <i>Nick Heudecker, Research Vice President, Gartner</i>
+                                            </h3>
                                         </p>
+
+
+                                    </div>
+                                    <div class="col-md-6 my-auto">
+                                        <div>
+                                            <img class="w-100 h-100" src="img/ch1_img3.png" alt="Chapter 1 Cover Image">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- chapter 3/3 -->
+                            <!-- chapter 4/5 -->
                             <div class="carousel-item">
+                                <div class="row mb-2">
+                                    <div class="col text-center">
+                                        <h1 class="display-3">Key ingredients to success include:</h1>
+                                    </div>
+                                </div>
                                 <div class="row">
-                                    <div class="col-md-8 m-auto text-white">
-                                        <p class="ch3-cover-text">
-                                            <h1 class="my-auto">
-                                                “We can raise the same amount of money with much less expense. That means the WWF and its members are more efficiently helping to protect the planet.”
-                                            </h1>
+                                    <div class="col-md-4">
+                                        <p>
+                                            <div class="key-round "> <span class="display-4 grey">1</span></div>
                                         </p>
                                         <p>
-                                            <h2 class="font-italic">
-                                                Mac Mirabile, Director of Strategic and Financial Analysis, World Wildlife Fund
-                                            </h2>
+                                            <h5 class="blue">
+                                                Easy-to-use, affordable, results-oriented analytics
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                Using AI is strategic to solving business problems. To do so, you need to take a holistic approach, while respecting ethical boundaries.
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                SAS helps executives understand the basics of AI, identify and execute on opportunities, and integrate AI in their analytical strategy.
+                                            </h5>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <p>
+                                            <div class="key-round "> <span class="display-4 grey">2</span></div>
+                                            <p>
+                                                <h5 class="blue">
+                                                    Analytics for each role
+                                                </h5>
+                                            </p>
+                                            <p>
+                                                <h5>
+                                                    This is a must-have for businesses today, hand-in-hand with an analytics platform that gives them choice and balance and evolves as they do.
+                                                </h5>
+                                            </p>
+                                            <p>
+                                                <h5>
+                                                    Thanks to smarter analytics technologies, data-driven organisations are on the rise, using their troves of data to stay ahead of the competition and optimise their decision-making processes.
+                                                </h5>
+                                            </p>
+                                            <p>
+                                                <h5>
+                                                    SAS knows the what, the why and how of becoming a data-driven organisation, and can offer guidance on real-life applications – and results – of data visualization and advanced analytics.
+                                                </h5>
+                                            </p>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <p>
+                                            <div class="key-round "> <span class="display-4 grey">3</span></div>
+                                        </p>
+                                        <p>
+                                            <h5 class="blue">
+                                                Ethical Intelligence
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                Analytical models are crucial to making sound decisions across business functions, from marketing to fraud to finance. If these models are not managed correctly, decision makers are put at risk.
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                SAS can help CIOs and IT professionals better manage their analytics life cycle to enable faster and more informed decision making at scale.
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                “The reason SAS tops the revenue list for advanced analytics for the last five years is that SAS solutions are built on a foundation of machine learning and deep knowledge of analytics. These are part of SAS’ DNA. Combining SAS’ knowledge and technology with its continued push to innovate in computer vision, NLP and deep learning will drive further adoption of AI across multiple industries. And it will help companies interested in AI – whether early in their AI and analytics life cycle or more mature.”
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                <i>
+                                                    Dave Schubmehl, Research Director for Artificial Intelligence, IDC
+                                                </i>
+                                            </h5>
                                         </p>
                                     </div>
                                 </div>
@@ -529,16 +658,18 @@
                         </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#chapter-three" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#chapter-four" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#chapter-three" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#chapter-four" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
                 <h1 class="absolute chapter_number blue">04</h1>
+                <div class="red_line absolute"></div>
+
             </div>
 
         </div>
@@ -562,7 +693,7 @@
                 $('#return-to-top').fadeOut(200); // Else fade out the arrow
             }
         });
-        $('#return-to-top').click(function() { // When arrow is clicked
+        $('#return-to-top, #home').click(function() { // When arrow is clicked
             $('body,html').animate({
                 scrollTop: 0 // Scroll to top of body
             }, 500);
