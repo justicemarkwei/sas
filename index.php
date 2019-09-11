@@ -11,11 +11,11 @@
 
     <!-- Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" href="fontawesome-5.7.2/css/all.css">
     <link rel="stylesheet" href="burgar/slick.css">
     <link rel="stylesheet" href="burgar/style.css">
     <link rel="stylesheet" href="font/font_style.css">
-    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -56,12 +56,13 @@
 
     <div class="orange_box_outline_1"></div>
 
+    <!-- chapter 1 -->
     <section>
         <div class="site-container">
 
-            <div class="card shadow border_radius chapter_box">
+            <div class="card shadow border_radius chapter_box chapter-one-box">
                 <div class="card-body">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <div id="chapter-one" class="carousel slide" data-ride="carousel" data-interval="false">
                         <div class="carousel-inner">
 
                             <!-- chapter 1/1 -->
@@ -69,10 +70,9 @@
 
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
-                                        <div class="display-3">The Power to Know</div>
+                                        <h1 class="display-3">The Power to Know</h1>
                                         <h3 style="line-height: 35px;">
-                                            "How trusted analytics and innovative software and services empower small and
-                                            midsize business to grow."
+                                            Grow your business and turn data into intelligence through trusted analytics with embedded AI
                                         </h3>
                                     </div>
                                     <div class="col-md-6 my-auto">
@@ -89,16 +89,17 @@
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
                                         <h3 style="line-height: 35px;">
-                                            Analytics is a must-have for any size business.
+                                            Analytics is the crux of success for businesses today.
                                         </h3>
                                         <br>
                                         <h3 style="line-height: 30px;">
-                                            To grow revenues or meet other financial goals,
-                                            organizations of all sizes have many of the sames to
-                                            answer - how to differentiate, improve the customer
-                                            experience, boost employee productivity, strengthen
-                                            service quality or increase market share.
+                                            To grow revenues or achieve other goals, organizations of all sizes are trying to answer the same questions: how best to differentiate, improve the customer experience, boost employee productivity, strengthen service quality and increase market share.
                                         </h3>
+                                        <p>
+                                            <h3>
+                                                The good news is that leaders who make decisions based on data and analytics not only reach these goals, but also exceed them – and we’re not just talking global leaders and organisations. SAS knows small and midsize organisations can harness the power of analytics, too – because we have seen it.
+                                            </h3>
+                                        </p>
                                     </div>
                                     <div class="col-md-6 my-auto">
                                         <div class="">
@@ -109,30 +110,136 @@
 
                             </div>
 
-
                             <!-- chapter 1/3 -->
                             <div class="carousel-item">
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
                                         <h3 style="line-height: 35px;">
-                                            The good news is that leader who make decisions based
-                                            on data and analytics not only reach these goals, but also
-                                            exceed them. And it isnt just global leaders and prominent
-                                            organizations. Smaller organizations can also harness the
-                                            power of analytics. The key factor to make it happen is a
-                                            willingness to transform and adopt analytics, no matter the
-                                            size of the budget, the extent of IT resource or even having
-                                            data scientists on the team.
-                                            And leveraging analytics with AI in the cloud gives
-                                            CIOs and CMOs the flexibility and intelligence they
-                                            need to help transform and grow their business.
+                                            To make it happen, you have to first realize that not all analytics are created equal. And you must be willing to transform and adopt analytics, regardless of budget size or IT resources. Analytics must be accessible to all, from novices to experts, with easy-to-use visualization and reporting for business analysts and all users, or R and Python API integration for developers and data scientists.
                                         </h3>
-                                        
+                                        <p>
+                                            <h3>
+                                                SAS also knows artificial intelligence (AI) is more than just a buzzword. Using analytics in the cloud with AI gives CIOs and CMOs the flexibility and intelligence they need to help transform and grow their business.
+                                            </h3>
+                                        </p>
+
                                     </div>
                                     <div class="col-md-6 my-auto">
-                                        <div class="">
+                                        <div>
                                             <img class="w-100 h-100" src="img/ch1_img2.png" alt="Chapter 1 Cover Image">
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- chapter 1/4 -->
+                            <div class="carousel-item">
+                                <div class="row mb-2">
+                                    <div class="col-md-6 my-auto">
+                                        <h3 style="line-height: 35px;">
+                                            “Organizations at transformational levels of maturity enjoy increased agility, better integration with partners and suppliers, and easier use of advanced predictive and prescriptive forms of analytics. This all translates to competitive advantage and differentiation, which is even higher for mid sized firms because the opportunity of being early adopters is even greater.”
+                                        </h3>
+                                        <p>
+                                            <h3 style="line-height: 35px;">
+                                                <i>Nick Heudecker, Research Vice President, Gartner</i>
+                                            </h3>
+                                        </p>
+
+
+                                    </div>
+                                    <div class="col-md-6 my-auto">
+                                        <div>
+                                            <img class="w-100 h-100" src="img/ch1_img3.png" alt="Chapter 1 Cover Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- chapter 1/5 -->
+                            <div class="carousel-item">
+                                <div class="row mb-2">
+                                    <div class="col text-center">
+                                        <h1 class="display-3">Key ingredients to success include:</h1>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <p>
+                                            <div class="key-round "> <span class="display-4 grey">1</span></div>
+                                        </p>
+                                        <p>
+                                            <h5 class="blue">
+                                                Easy-to-use, affordable, results-oriented analytics
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                Using AI is strategic to solving business problems. To do so, you need to take a holistic approach, while respecting ethical boundaries.
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                SAS helps executives understand the basics of AI, identify and execute on opportunities, and integrate AI in their analytical strategy.
+                                            </h5>
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <p>
+                                            <div class="key-round "> <span class="display-4 grey">2</span></div>
+                                            <p>
+                                                <h5 class="blue">
+                                                    Analytics for each role
+                                                </h5>
+                                            </p>
+                                            <p>
+                                                <h5>
+                                                    This is a must-have for businesses today, hand-in-hand with an analytics platform that gives them choice and balance and evolves as they do.
+                                                </h5>
+                                            </p>
+                                            <p>
+                                                <h5>
+                                                    Thanks to smarter analytics technologies, data-driven organisations are on the rise, using their troves of data to stay ahead of the competition and optimise their decision-making processes.
+                                                </h5>
+                                            </p>
+                                            <p>
+                                                <h5>
+                                                    SAS knows the what, the why and how of becoming a data-driven organisation, and can offer guidance on real-life applications – and results – of data visualization and advanced analytics.
+                                                </h5>
+                                            </p>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <p>
+                                            <div class="key-round "> <span class="display-4 grey">3</span></div>
+                                        </p>
+                                        <p>
+                                            <h5 class="blue">
+                                                Ethical Intelligence
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                Analytical models are crucial to making sound decisions across business functions, from marketing to fraud to finance. If these models are not managed correctly, decision makers are put at risk.
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                SAS can help CIOs and IT professionals better manage their analytics life cycle to enable faster and more informed decision making at scale.
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                “The reason SAS tops the revenue list for advanced analytics for the last five years is that SAS solutions are built on a foundation of machine learning and deep knowledge of analytics. These are part of SAS’ DNA. Combining SAS’ knowledge and technology with its continued push to innovate in computer vision, NLP and deep learning will drive further adoption of AI across multiple industries. And it will help companies interested in AI – whether early in their AI and analytics life cycle or more mature.”
+                                            </h5>
+                                        </p>
+                                        <p>
+                                            <h5>
+                                                <i>
+                                                    Dave Schubmehl, Research Director for Artificial Intelligence, IDC
+                                                </i>
+                                            </h5>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -140,11 +247,11 @@
                         </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#chapter-one" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#chapter-one" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -157,15 +264,214 @@
         </div>
     </section>
 
+    <div class="row">
+        <div class="col text-center btn-next-chapter-box">
+            <a href="#chapter_two" class="btn btn-next-chapter">Click Here For Next Chapter</a>
+        </div>
+    </div>
+
+    <!-- chapter 2 -->
+    <section id="chapter_two" class="mt-5">
+        <div class="site-container">
+
+            <div class="card shadow border_radius chapter_box">
+                <div class="card-body">
+                    <div id="chapter-two" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+
+                            <!-- chapter 2/1 -->
+                            <div class="carousel-item active">
+
+                                <div class="row">
+                                    <div class="col-md-6 m-auto text-center chapter-video-box">
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="red_line_two absolute"></div>
+
+                            </div>
+
+                            <!-- chapter 2/2 -->
+                            <div class="carousel-item">
+
+                                <div class="row">
+                                    <div class="col-md-4 text-center">
+                                        <p class="p-5">
+                                            <h5 class="blue">
+                                                simple, affordable, flexible
+                                            </h5>
+                                        </p>
+                                        <p class="p-5">
+                                            <img src="img/ch2-hoop.png" alt="Simple">
+                                        </p>
+                                    </div>
+
+                                    <div class="col-md-4 text-center">
+                                        <p class="p-5">
+                                            <h5 class="blue">
+                                                data visualizations - better decisions and Growth
+                                            </h5>
+                                        </p>
+                                        <p class="p-5">
+                                            <img src="img/ch2-search.png" alt="Simple">
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <p class="p-5">
+                                            <h5 class="blue">
+                                                platform, choice and balance
+                                            </h5>
+                                        </p>
+                                        <p class="p-5">
+                                            <img src="img/ch2-balance.png" alt="Simple">
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- chapter 2/3 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6 m-auto text-center chapter-video-box">
+                                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="red_line_two absolute"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#chapter-two" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#chapter-two" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h1 class="absolute chapter_number blue">02</h1>
+                <!-- <div class="red_line_two absolute"></div> -->
+            </div>
+
+        </div>
+    </section>
+
+    <div class="row">
+        <div class="col text-center btn-next-chapter-box">
+            <a href="#chapter_three" class="btn btn-next-chapter">Click Here For Next Chapter</a>
+        </div>
+    </div>
+
+    <!-- chapter 3 -->
+    <section id="chapter_three" class="mt-5">
+        <div class="site-container">
+
+            <div class="card shadow border_radius chapter_box">
+                <div class="card-body">
+                    <div class="red_line absolute"></div>
+
+                    <div id="chapter-two" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner">
+
+                            <!-- chapter 3/1 -->
+                            <div class="carousel-item active">
+
+                            </div>
+
+                            <!-- chapter 3/2 -->
+                            <div class="carousel-item">
+
+                            </div>
+
+                            <!-- chapter 3/3 -->
+                            <div class="carousel-item">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#chapter-two" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#chapter-two" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h1 class="absolute chapter_number blue">03</h1>
+            </div>
+
+        </div>
+    </section>
+
+    <a href="javascript:" id="return-to-top" class="text-center"><i class="text-white fa fa-chevron-up fa-3x"></i></a>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="fontawesome-5.7.2/js/all.js"></script>
+    <script src="js/turnjs4/lib/turn.min.js"></script>
     <script src="burgar/slick.min.js"></script>
     <script src="burgar/burgar.js"></script>
-    <!-- 
+
     <script>
-        $('.carousel').carousel()
-    </script> -->
+        // ===== Scroll to Top ==== 
+        $(window).scroll(function() {
+            if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(200); // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200); // Else fade out the arrow
+            }
+        });
+        $('#return-to-top').click(function() { // When arrow is clicked
+            $('body,html').animate({
+                scrollTop: 0 // Scroll to top of body
+            }, 500);
+        });
+
+
+        // smooth scroll effect
+        // Select all links with hashes
+        $('a[href*="#"]')
+            // Remove links that don't actually link to anything
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function(event) {
+                // On-page links
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                    location.hostname == this.hostname
+                ) {
+                    // Figure out element to scroll to
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    // Does a scroll target exist?
+                    if (target.length) {
+                        // $(this).css('margin-top', '0px');
+                        // Only prevent default if animation is actually gonna happen
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1200, function() {
+                            // Callback after animation
+                            // Must change focus!
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) { // Checking if the target was focused
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                $target.focus(); // Set focus again
+                            };
+                        });
+                    }
+                }
+            });
+    </script>
 
 </body>
 
