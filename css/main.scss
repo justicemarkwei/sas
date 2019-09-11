@@ -15,6 +15,7 @@ $blue: #007dc3;
 $wine: #db3856;
 $light_blue: #adcbe5;
 $grey: #6a6a6a;
+$light-grey: #828181;
 
 *{
     font-family: 'Avenir Next LT Pro Regular' !important;
@@ -249,7 +250,12 @@ $grey: #6a6a6a;
         vertical-align: middle;
     }
 }
-
+.bg-blue{
+    background: $blue;
+}
+.bg-light-grey{
+    background: $light-grey;
+}
 .ch3-one{
     background: url(../img/ch3_bg1.png);
     background-repeat: no-repeat;
@@ -268,5 +274,11 @@ $grey: #6a6a6a;
         padding: 0rem;
     }
 }
+footer{
+    margin-top: 15rem;
 
+    .col-10, .col-2{
+        padding: 3rem 0rem;
+    }
+}
 
