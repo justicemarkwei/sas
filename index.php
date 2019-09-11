@@ -366,39 +366,79 @@
     </div>
 
     <!-- chapter 3 -->
-    <section id="chapter_three" class="mt-5">
+    <section id="chapter_three" class="mt-5 relative">
+        <!-- <div class="orange_box_outline_2"></div> -->
         <div class="site-container">
 
-            <div class="card shadow border_radius chapter_box">
-                <div class="card-body">
-                    <div class="red_line absolute"></div>
+            <div class="card shadow border_radius chapter_box ch3-one">
+                <div class="card-body ">
+                    <div class="white_line absolute"></div>
 
-                    <div id="chapter-two" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner">
+                    <div id="chapter-three" class="carousel slide " data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner ">
 
                             <!-- chapter 3/1 -->
-                            <div class="carousel-item active">
-
+                            <div class="carousel-item active ">
+                                <div class="row">
+                                    <div class="col-md-8 m-auto text-white">
+                                        <p class="ch3-cover-text">
+                                            <h1 class="my-auto">
+                                                “We can fine-tune our customer treatment strategies, as well as our customer acquisition efforts, to generate very high returns.”
+                                            </h1>
+                                        </p>
+                                        <p>
+                                            <h2 class="font-italic">
+                                                Jeff Lee, Chief Marketing Officer, Seacoast Bank
+                                            </h2>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
 
                             <!-- chapter 3/2 -->
                             <div class="carousel-item">
-
+                                <div class="row">
+                                    <div class="col-md-8 m-auto text-white">
+                                        <p class="ch3-cover-text">
+                                            <h1 class="my-auto">
+                                                “Automating the replenishment process saves stores approximately nine hours a week. In addition, we have significantly fewer stock-outs.”
+                                            </h1>
+                                        </p>
+                                        <p>
+                                            <h2 class="font-italic">
+                                                Johnny Rolsted, Logistics Team Manager, Matas
+                                            </h2>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
 
                             <!-- chapter 3/3 -->
                             <div class="carousel-item">
-
+                                <div class="row">
+                                    <div class="col-md-8 m-auto text-white">
+                                        <p class="ch3-cover-text">
+                                            <h1 class="my-auto">
+                                                “We can raise the same amount of money with much less expense. That means the WWF and its members are more efficiently helping to protect the planet.”
+                                            </h1>
+                                        </p>
+                                        <p>
+                                            <h2 class="font-italic">
+                                                Mac Mirabile, Director of Strategic and Financial Analysis, World Wildlife Fund
+                                            </h2>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
 
                         </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#chapter-two" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#chapter-three" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#chapter-two" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#chapter-three" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
@@ -409,12 +449,105 @@
         </div>
     </section>
 
+    <div class="row">
+        <div class="col text-center btn-next-chapter-box">
+            <a href="#chapter_four" class="btn btn-next-chapter">Click Here For Next Chapter</a>
+        </div>
+    </div>
+
+    <!-- chapter 3 -->
+    <section id="chapter_four" class="mt-5 relative">
+        <!-- <div class="orange_box_outline_2"></div> -->
+        <div class="site-container">
+
+            <div class="card shadow border_radius chapter_box">
+                <div class="card-body ">
+                    <div class="red_line absolute"></div>
+                    <div class="jumbotron text-center">
+                        <h1 class="display-4">Under Contruction</h1>
+                    </div>
+
+                    <div id="chapter-three" class="carousel slide " data-ride="carousel" data-interval="false" hidden>
+                        <div class="carousel-inner ">
+
+                            <!-- chapter 3/1 -->
+                            <div class="carousel-item active ">
+                                <div class="row">
+                                    <div class="col-md-8 m-auto text-white">
+                                        <p class="ch3-cover-text">
+                                            <h1 class="my-auto">
+                                                “We can fine-tune our customer treatment strategies, as well as our customer acquisition efforts, to generate very high returns.”
+                                            </h1>
+                                        </p>
+                                        <p>
+                                            <h2 class="font-italic">
+                                                Jeff Lee, Chief Marketing Officer, Seacoast Bank
+                                            </h2>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- chapter 3/2 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8 m-auto text-white">
+                                        <p class="ch3-cover-text">
+                                            <h1 class="my-auto">
+                                                “Automating the replenishment process saves stores approximately nine hours a week. In addition, we have significantly fewer stock-outs.”
+                                            </h1>
+                                        </p>
+                                        <p>
+                                            <h2 class="font-italic">
+                                                Johnny Rolsted, Logistics Team Manager, Matas
+                                            </h2>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- chapter 3/3 -->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-8 m-auto text-white">
+                                        <p class="ch3-cover-text">
+                                            <h1 class="my-auto">
+                                                “We can raise the same amount of money with much less expense. That means the WWF and its members are more efficiently helping to protect the planet.”
+                                            </h1>
+                                        </p>
+                                        <p>
+                                            <h2 class="font-italic">
+                                                Mac Mirabile, Director of Strategic and Financial Analysis, World Wildlife Fund
+                                            </h2>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#chapter-three" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#chapter-three" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <h1 class="absolute chapter_number blue">04</h1>
+            </div>
+
+        </div>
+    </section>
+
+
     <a href="javascript:" id="return-to-top" class="text-center"><i class="text-white fa fa-chevron-up fa-3x"></i></a>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="fontawesome-5.7.2/js/all.js"></script>
-    <script src="js/turnjs4/lib/turn.min.js"></script>
     <script src="burgar/slick.min.js"></script>
     <script src="burgar/burgar.js"></script>
 
