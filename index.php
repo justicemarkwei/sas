@@ -23,6 +23,8 @@
     <nav class="site-navigation">
         <div class="site-navigation-inner site-container-small">
             <a href="."> <img src="img/logo.png" width="110" alt="Sas logo"></a>
+            <h1 class="text-white text-center">Interactive White <span class="border_bottom" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
+
             <div class="main-navigation">
                 <ul class="main-navigation__ul font">
                     <li class="font"><a href="#">Homepage</a></li>
@@ -48,9 +50,9 @@
 
     <section class="fh5co-top-banner mb-4">
         <div class="top-banner__inner site-container">
-            <div class="w-100">
+            <!-- <div class="w-100">
                 <h1 class="text-white text-center">Interactive White <span class="border_bottom" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
-            </div>
+            </div> -->
         </div>
     </section>
 
