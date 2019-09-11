@@ -280,5 +280,9 @@ footer{
     .col-10, .col-2{
         padding: 3rem 0rem;
     }
+
+    @media(max-width: 768px){
+        text-align: center;
+    }
 }
 

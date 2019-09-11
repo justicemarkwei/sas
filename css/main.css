@@ -317,4 +317,10 @@ footer {
 footer .col-10, footer .col-2 {
   padding: 3rem 0rem;
 }
+
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=main.css.map */
