@@ -120,7 +120,7 @@
                             <!-- chapter 1/3 -->
                             <div class="carousel-item">
                                 <div class="row mb-2">
-                                    <h5 class="page">Page 2</h5>
+                                    <!-- <h5 class="page">Page 2Page 2</h5> -->
 
                                     <div class="col-md-6 my-auto">
                                         <h3 style="line-height: 35px;">
