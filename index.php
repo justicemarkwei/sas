@@ -26,7 +26,7 @@
     <nav class="site-navigation">
         <div class="site-navigation-inner site-container-small">
             <a href="."> <img src="img/logo.png" width="110" alt="Sas logo"></a>
-            <h1 class="text-white text-center">Interactive White <span class="border_bottom" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
+            <!-- <h1 class="text-white text-center">Interactive White <span class="border_bottom" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1> -->
 
             <div class="main-navigation">
                 <ul class="main-navigation__ul font">
@@ -53,9 +53,9 @@
     <?php include 'floating-links.php'; ?>
     <section class="fh5co-top-banner mb-4">
         <div class="top-banner__inner site-container">
-            <!-- <div class="w-100">
+            <div class="w-100">
                 <h1 class="text-white text-center">Interactive White <span class="border_bottom" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
-            </div> -->
+            </div>
         </div>
     </section>
 
@@ -72,8 +72,8 @@
 
                             <!-- chapter 1/1 -->
                             <div class="carousel-item active">
-
                                 <div class="row mb-2">
+
                                     <div class="col-md-6 my-auto">
                                         <h1 class="display-3" data-aos="fade-right" data-aos-duration="1000">The Power to Know</h1>
                                         <h3 style="line-height: 35px;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
@@ -92,6 +92,8 @@
                             <!-- chapter 1/2 -->
                             <div class="carousel-item">
                                 <div class="row mb-2">
+                                    <!-- <h5 class="page">Page 1</h5> -->
+
                                     <div class="col-md-6 my-auto">
                                         <h3 style="line-height: 35px;">
                                             Analytics is the crux of success for businesses today.
@@ -118,6 +120,8 @@
                             <!-- chapter 1/3 -->
                             <div class="carousel-item">
                                 <div class="row mb-2">
+                                    <h5 class="page">Page 2</h5>
+
                                     <div class="col-md-6 my-auto">
                                         <h3 style="line-height: 35px;">
                                             To make it happen, you have to first realize that not all analytics are created equal. And you must be willing to transform and adopt analytics, regardless of budget size or IT resources. Analytics must be accessible to all, from novices to experts, with easy-to-use visualization and reporting for business analysts and all users, or R and Python API integration for developers and data scientists.
@@ -140,6 +144,8 @@
                             <!-- chapter 1/4 -->
                             <div class="carousel-item">
                                 <div class="row mb-2">
+                                    <!-- <h5 class="page">Page 3</h5> -->
+
                                     <div class="col-md-6 my-auto">
                                         <h3 style="line-height: 35px;">
                                             “Organizations at transformational levels of maturity enjoy increased agility, better integration with partners and suppliers, and easier use of advanced predictive and prescriptive forms of analytics. This all translates to competitive advantage and differentiation, which is even higher for mid sized firms because the opportunity of being early adopters is even greater.”
@@ -395,7 +401,7 @@
                                             </h1>
                                         </p>
                                         <p>
-                                            <h2 class="font-italic" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000">
+                                            <h2 class="font-italic" data-aos="fade-right" data-aos-duration="2000">
                                                 Jeff Lee, Chief Marketing Officer, Seacoast Bank
                                             </h2>
                                         </p>
@@ -855,7 +861,9 @@
                     <h3>Questions? Visit <a class="text-white" style="font-size: 1.75rem;" href="https://brand.sas.com" target="_blank"> brand.sas.com</a>. Contact <a class="text-white" style="font-size: 1.75rem;" href="mailto:sas.brand@sas.com"> sas.brand@sas.com</a></h3>
                 </div>
             </div>
-            <div class="col-2 bg-blue"></div>
+            <div class="col-2 bg-blue text-center">
+                <img src="img/logo.png" style="width:50%;" alt="">
+            </div>
         </div>
     </footer>
 

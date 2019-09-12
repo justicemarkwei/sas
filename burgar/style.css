@@ -124,7 +124,7 @@ src: url(../font/AvenirNextLTPro-Regular.woff);
   /* background-image: url("../images/top-banner-bckg.jpg"); */
   background-position: center;
   background-size: cover;
-  padding-top: 15vh;
+  padding-top: 1vh;
 }
   .fh5co-top-banner::after {
     content: '';
