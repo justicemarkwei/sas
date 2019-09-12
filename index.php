@@ -11,6 +11,7 @@
 
     <!-- Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome-5.7.2/css/all.css">
     <link rel="stylesheet" href="burgar/slick.css">
@@ -387,14 +388,14 @@
                             <!-- chapter 3/1 -->
                             <div class="carousel-item active ">
                                 <div class="row">
-                                    <div class="col-md-8 m-auto text-white" data-aos="fade-up" data-aos-duration="2000">
+                                    <div class="col-md-8 m-auto text-white">
                                         <p class="ch3-cover-text">
-                                            <h1 class="my-auto">
+                                            <h1 class="my-auto" data-aos="fade-up" data-aos-duration="2000">
                                                 “We can fine-tune our customer treatment strategies, as well as our customer acquisition efforts, to generate very high returns.”
                                             </h1>
                                         </p>
                                         <p>
-                                            <h2 class="font-italic">
+                                            <h2 class="font-italic" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000">
                                                 Jeff Lee, Chief Marketing Officer, Seacoast Bank
                                             </h2>
                                         </p>
@@ -859,7 +860,6 @@
     </footer>
 
     <a href="javascript:" id="return-to-top" class="text-center"><i class="text-white fa fa-chevron-up fa-3x"></i></a>
-
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

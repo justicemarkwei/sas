@@ -28,6 +28,7 @@
   box-shadow: 0px 4px 11px -6px rgba(0, 0, 0, 0.75);
   background: rgba(0, 125, 195, 0.71) !important;
   position: fixed;
+  padding: .3rem;
 }
 
 .chapter {
@@ -165,10 +166,16 @@
   width: 26px;
   height: 30px;
   opacity: .3;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .carousel-control-next-icon:hover, .carousel-control-prev-icon:hover {
   opacity: 1;
+  width: 30px;
+  height: 34px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .chapter_box {
