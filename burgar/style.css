@@ -38,10 +38,14 @@ src: url(../font/AvenirNextLTPro-Regular.woff);
 /* Universal style end */
 /* Includes */
 .site-navigation {
-  position: absolute;
-  top: 4.6%;
+  position: fixed;
+  /* top: 4.6%; */
   width: 100%;
-  z-index: 2; }
+  z-index: 2;
+  background: #007dc3;
+  padding: 1rem 0;
+  /* opacity: .2; */
+}
 
 .site-navigation-inner {
   display: flex;

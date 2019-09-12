@@ -11,12 +11,12 @@
 
     <!-- Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="fontawesome-5.7.2/css/all.css">
     <link rel="stylesheet" href="burgar/slick.css">
     <link rel="stylesheet" href="burgar/style.css">
     <link rel="stylesheet" href="font/font_style.css">
     <link rel="stylesheet" href="css/floating-links.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -74,14 +74,14 @@
 
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
-                                        <h1 class="display-3">The Power to Know</h1>
-                                        <h3 style="line-height: 35px;">
+                                        <h1 class="display-3" data-aos="fade-right" data-aos-duration="1000">The Power to Know</h1>
+                                        <h3 style="line-height: 35px;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
                                             Grow your business and turn data into intelligence through trusted analytics with embedded AI
                                         </h3>
                                     </div>
                                     <div class="col-md-6 my-auto">
                                         <div class="">
-                                            <img class="w-100 h-100" src="img/ch1_cover.png" alt="Chapter 1 Cover Image">
+                                            <img class="w-100 h-100" src="img/ch1_cover.png" alt="Chapter 1 Cover Image" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1200">
                                         </div>
                                     </div>
                                 </div>
@@ -260,8 +260,8 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <h1 class="absolute chapter_number blue">01</h1>
-                <div class="red_line absolute"></div>
+                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1300">01</h1>
+                <div class="red_line absolute" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1200"></div>
 
             </div>
 
@@ -269,12 +269,13 @@
     </section>
 
     <div class="row">
-        <div class="col text-center btn-next-chapter-box">
+        <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
             <a href="#chapter_two" class="btn btn-next-chapter">Click Here For Next Chapter</a>
         </div>
     </div>
 
-    <div id="chapter_two"></div>
+    <div id="chapter_two" class="chapter"></div>
+
     <!-- chapter 2 -->
     <section class="mt-5">
         <div class="site-container">
@@ -288,11 +289,11 @@
                             <div class="carousel-item active">
 
                                 <div class="row">
-                                    <div class="col-md-6 m-auto text-center chapter-video-box">
+                                    <div class="col-md-6 m-auto text-center chapter-video-box" data-aos="zoom-in" data-aos-duration="1000">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
-                                <div class="red_line_two absolute"></div>
+                                <div class="red_line_two absolute" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1100"></div>
 
                             </div>
 
@@ -357,7 +358,7 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <h1 class="absolute chapter_number blue">02</h1>
+                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">02</h1>
                 <!-- <div class="red_line_two absolute"></div> -->
             </div>
 
@@ -365,12 +366,12 @@
     </section>
 
     <div class="row">
-        <div class="col text-center btn-next-chapter-box">
+        <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
             <a href="#chapter_three" class="btn btn-next-chapter">Click Here For Next Chapter</a>
         </div>
     </div>
 
-    <div id="chapter_three"></div>
+    <div id="chapter_three" class="chapter"></div>
     <!-- chapter 3 -->
     <section class="mt-5 relative">
         <!-- <div class="orange_box_outline_2"></div> -->
@@ -378,7 +379,7 @@
 
             <div class="card shadow border_radius chapter_box ch3-one">
                 <div class="card-body ">
-                    <div class="white_line absolute"></div>
+                    <div class="white_line absolute" data-aos="fade-right" data-aos-duration="2000"></div>
 
                     <div id="chapter-three" class="carousel slide " data-ride="carousel" data-interval="false">
                         <div class="carousel-inner ">
@@ -386,7 +387,7 @@
                             <!-- chapter 3/1 -->
                             <div class="carousel-item active ">
                                 <div class="row">
-                                    <div class="col-md-8 m-auto text-white">
+                                    <div class="col-md-8 m-auto text-white" data-aos="fade-up" data-aos-duration="2000">
                                         <p class="ch3-cover-text">
                                             <h1 class="my-auto">
                                                 “We can fine-tune our customer treatment strategies, as well as our customer acquisition efforts, to generate very high returns.”
@@ -449,19 +450,19 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <h1 class="absolute chapter_number blue">03</h1>
+                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">03</h1>
             </div>
 
         </div>
     </section>
 
     <div class="row">
-        <div class="col text-center btn-next-chapter-box">
+        <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
             <a href="#chapter_four" class="btn btn-next-chapter">Click Here For Next Chapter</a>
         </div>
     </div>
 
-    <div id="chapter_four"></div>
+    <div id="chapter_four" class="chapter"></div>
     <!-- chapter 4 -->
     <section class="mt-5 relative">
         <!-- <div class="orange_box_outline_2"></div> -->
@@ -476,7 +477,7 @@
                             <div class="carousel-item active">
 
                                 <div class="row mb-2">
-                                    <div class="col-md-6 my-auto">
+                                    <div class="col-md-6 my-auto" data-aos="fade-up" data-aos-duration="2000">
                                         <h1 class="display-3">You're the IT Leader</h1>
                                         <h3 style="line-height: 35px;">
                                             A key business value in IT is to modernize technology while keeping costs down. SAS believes in staying innovative and lean to enjoy the basic principles: simplicity, affordability, flexibility and relevance.
@@ -489,7 +490,7 @@
                                     </div>
                                     <div class="col-md-6 my-auto">
                                         <div class="">
-                                            <img class="w-100 h-100" src="img/ch4_cover.png" alt="Chapter 1 Cover Image">
+                                            <img class="w-100 h-100" src="img/ch4_cover.png" alt="Chapter 1 Cover Image" data-aos="zoom-in" data-aos-duration="2000">
                                         </div>
                                     </div>
                                 </div>
@@ -686,8 +687,8 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <h1 class="absolute chapter_number blue">04</h1>
-                <div class="red_line absolute"></div>
+                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">04</h1>
+                <div class="red_line absolute" data-aos="fade-right" data-aos-duration="2000"></div>
 
             </div>
 
@@ -695,12 +696,12 @@
     </section>
 
     <div class="row">
-        <div class="col text-center btn-next-chapter-box">
+        <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
             <a href="#chapter_five" class="btn btn-next-chapter">Click Here For Next Chapter</a>
         </div>
     </div>
 
-    <div id="chapter_five"></div>
+    <div id="chapter_five" class="chapter"></div>
 
     <!-- chapter 5 -->
     <section class="mt-5">
@@ -715,11 +716,11 @@
                             <div class="carousel-item active">
 
                                 <div class="row">
-                                    <div class="col-md-6 m-auto text-center chapter-video-box">
+                                    <div class="col-md-6 m-auto text-center chapter-video-box" data-aos="zoom-in" data-aos-duration="2000">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
-                                <div class="red_line_two absolute"></div>
+                                <div class="red_line_two absolute" data-aos="fade-left" data-aos-duration="2000"></div>
 
                             </div>
 
@@ -776,7 +777,7 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <h1 class="absolute chapter_number blue">05</h1>
+                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">05</h1>
                 <!-- <div class="red_line_two absolute"></div> -->
             </div>
 
@@ -784,12 +785,12 @@
     </section>
 
     <div class="row">
-        <div class="col text-center btn-next-chapter-box">
+        <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
             <a href="#chapter_six" class="btn btn-next-chapter">Click Here For Next Chapter</a>
         </div>
     </div>
 
-    <div id="chapter_six"></div>
+    <div id="chapter_six" class="chapter"></div>
 
     <!-- Chapter six -->
     <section class="mt-5 relative">
@@ -806,19 +807,19 @@
 
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
-                                        <h1 class="display-3">Why SAS?</h1>
-                                        <h3 style="line-height: 35px;">
+                                        <h1 class="display-3" data-aos="fade-up" data-aos-duration="2000">Why SAS?</h1>
+                                        <h3 style="line-height: 35px;" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1200">
                                             Knowing exactly who you are as a company – and what you want to achieve – can be challenging. Not to mention the potential risks of not knowing what you should know to make intelligent decisions.
                                         </h3>
                                         <p>
-                                            <h3>
+                                            <h3 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1300">
                                                 As the global leader in analytics, only SAS gives you trusted advanced analytics with a complete, cloud-friendly, open analytics life cycle platform that natively integrates artificial intelligence. SAS, together with its partner ecosystem, helps midsize businesses better understand their potential for increased revenue, growth and competitive advantage.
                                             </h3>
                                         </p>
                                     </div>
                                     <div class="col-md-6 my-auto">
                                         <div class="">
-                                            <img class="w-100 h-100" src="img/ch6_cover.png" alt="Chapter 6 Cover Image">
+                                            <img class="w-100 h-100" src="img/ch6_cover.png" alt="Chapter 6 Cover Image" data-aos="zoom-in" data-aos-duration="2000">
                                         </div>
                                     </div>
                                 </div>
@@ -837,7 +838,7 @@
                         <span class="sr-only">Next</span>
                     </a> -->
                 </div>
-                <h1 class="absolute chapter_number blue">06</h1>
+                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">06</h1>
                 <!-- <div class="red_line absolute"></div> -->
 
             </div>
@@ -868,12 +869,17 @@
     <script src="burgar/burgar.js"></script>
 
     <script>
+        AOS.init();
         // ===== Scroll to Top ==== 
         $(window).scroll(function() {
             if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
                 $('#return-to-top').fadeIn(200); // Fade in the arrow
+                $('.site-navigation').addClass('box-shadow');
+
             } else {
                 $('#return-to-top').fadeOut(200); // Else fade out the arrow
+                $('.site-navigation').removeClass('box-shadow');
+
             }
         });
         $('#return-to-top, #home').click(function() { // When arrow is clicked
