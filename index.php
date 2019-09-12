@@ -95,6 +95,7 @@
                                     <!-- <h5 class="page">Page 1</h5> -->
 
                                     <div class="col-md-6 my-auto">
+
                                         <h3 style="line-height: 35px;">
                                             Analytics is the crux of success for businesses today.
                                         </h3>
@@ -112,6 +113,8 @@
                                         <div class="">
                                             <img class="w-100 h-100" src="img/ch1_img1.png" alt="Chapter 1 Cover Image">
                                         </div>
+                                        <h5 class="wine pagex"> <span class="page">1</span> /1</h5>
+
                                     </div>
                                 </div>
 
@@ -120,7 +123,6 @@
                             <!-- chapter 1/3 -->
                             <div class="carousel-item">
                                 <div class="row mb-2">
-                                    <!-- <h5 class="page">Page 2Page 2</h5> -->
 
                                     <div class="col-md-6 my-auto">
                                         <h3 style="line-height: 35px;">
@@ -137,6 +139,8 @@
                                         <div>
                                             <img class="w-100 h-100" src="img/ch1_img2.png" alt="Chapter 1 Cover Image">
                                         </div>
+                                        <h5 class="wine pagex"> <span class="page">2</span> /1</h5>
+
                                     </div>
                                 </div>
                             </div>
@@ -144,9 +148,8 @@
                             <!-- chapter 1/4 -->
                             <div class="carousel-item">
                                 <div class="row mb-2">
-                                    <!-- <h5 class="page">Page 3</h5> -->
-
                                     <div class="col-md-6 my-auto">
+
                                         <h3 style="line-height: 35px;">
                                             “Organizations at transformational levels of maturity enjoy increased agility, better integration with partners and suppliers, and easier use of advanced predictive and prescriptive forms of analytics. This all translates to competitive advantage and differentiation, which is even higher for mid sized firms because the opportunity of being early adopters is even greater.”
                                         </h3>
@@ -162,6 +165,7 @@
                                         <div>
                                             <img class="w-100 h-100" src="img/ch1_img3.png" alt="Chapter 1 Cover Image">
                                         </div>
+                                        <h5 class="wine pagex"> <span class="page">3</span> /1</h5>
                                     </div>
                                 </div>
                             </div>
@@ -251,6 +255,8 @@
                                                 </i>
                                             </h5>
                                         </p>
+                                        <h5 class="wine pagex"> <span class="page">4</span> /1</h5>
+
                                     </div>
                                 </div>
                             </div>
@@ -338,6 +344,8 @@
                                         <p class="p-5">
                                             <img src="img/ch2-balance.png" alt="Simple">
                                         </p>
+                                        <h5 class="wine pagex"> <span class="page">1</span> /2</h5>
+
                                     </div>
                                 </div>
 
@@ -348,6 +356,7 @@
                                 <div class="row">
                                     <div class="col-md-6 m-auto text-center chapter-video-box">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <h5 class="wine pagex"> <span class="page">2</span> /2</h5>
                                     </div>
                                 </div>
                                 <div class="red_line_two absolute"></div>
@@ -584,7 +593,7 @@
                                                 If you make the decision to modernize, we can put you on the right path to overcome technology and skills gaps and turn your big data into smarter insights. SAS has a proven track record of solving business challenges, no matter the size. That’s because we understand your need for an easily installed and managed software and can support you in maintaining a skilled, responsive support network.
                                             </h6>
                                         </p>
-
+                                        <h5 class="wine pagex"> <span class="page">1</span> /4</h5>
                                     </div>
                                 </div>
                             </div>
@@ -607,6 +616,7 @@
                                         <div class="">
                                             <img class="w-100 h-100" src="img/ch4_img1.png" alt="Chapter 1 Cover Image">
                                         </div>
+                                        <h5 class="wine pagex"> <span class="page">2</span> /4</h5>
                                     </div>
                                 </div>
                             </div>
@@ -675,7 +685,7 @@
                                                 Companies want to identify their customers across multiple channels. To do so, they need a single view of all customers. SAS offers you deeper insight with embedded predictive marketing and enables you to engage with customers contextually across inbound and outbound channels.
                                             </h5>
                                         </p>
-
+                                        <h5 class="wine pagex"> <span class="page">3</span> /4</h5>
                                     </div>
 
 
@@ -758,6 +768,7 @@
                                         <div>
                                             <img class="w-100 h-100" src="img/ch5_img1.png" alt="Chapter 1 Cover Image">
                                         </div>
+                                        <h5 class="wine pagex"> <span class="page">1</span> /5</h5>
                                     </div>
                                 </div>
                             </div>
@@ -767,6 +778,7 @@
                                 <div class="row">
                                     <div class="col-md-6 m-auto text-center chapter-video-box">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <h5 class="wine pagex"> <span class="page">2</span> /5</h5>
                                     </div>
                                 </div>
                                 <div class="red_line_two absolute"></div>

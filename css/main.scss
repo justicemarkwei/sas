@@ -10,6 +10,14 @@ font-style: normal;
 font-weight: normal;
 src: url(../font/AvenirNextLTPro-Demi.woff);
 }
+
+@font-face {
+font-family: 'Avenir Next LT Pro Heavy';
+font-style: normal;
+font-weight: normal;
+src: url(../font/AvenirNextLTPro-Heavy.woff);
+}
+
 $orange: #f58220;
 $blue: #007dc3;
 $wine: #db3856;
@@ -30,7 +38,7 @@ $light-grey: #828181;
 // }
 .box-shadow {
   -webkit-box-shadow: 0px 4px 11px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 4px 11px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 11px -6px rgba(252, 32, 32, 0.75);
   background: rgba(0, 125, 195, 0.71) !important;
   position: fixed;
   padding: .3rem;
@@ -171,7 +179,7 @@ $light-grey: #828181;
     }
 }
 .chapter_number{
-    font-family: 'Avenir Next LT Pro Demi' !important;
+    font-family: 'Avenir Next LT Pro Heavy' !important;
     font-weight: bolder;
     font-size: 10rem;
     right:0%;
@@ -322,12 +330,25 @@ footer{
         text-align: center;
     }
 }
-.page{
+.wine{
     color: $wine;
-    font-family: 'Avenir Next LT Pro Demi';
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
+}
+.page{
+    color: white;
+    font-family: 'Avenir Next LT Pro Heavy' !important;
+    font-weight:bold !important;
+    font-size:14px;
+
+    // position: absolute;
+    // top: 0%;
+    // left: 0%;
     
+}
+.pagex{
+    background: $wine;
+    color: white;
+    width: 3rem;
+    text-align: center;
+    float:right;
 }
 
