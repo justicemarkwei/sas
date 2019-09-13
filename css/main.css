@@ -37,7 +37,7 @@ html, body {
 
 .box-shadow {
   -webkit-box-shadow: 0px 4px 11px -6px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 4px 11px -6px rgba(252, 32, 32, 0.75);
+  box-shadow: 0px 4px 11px -6px rgba(0, 0, 0, 0.75);
   background: rgba(0, 125, 195, 0.71) !important;
   position: fixed;
   padding: .3rem;
