@@ -51,10 +51,12 @@
         </div>
     </nav>
     <?php include 'floating-links.php'; ?>
+    <div id="chapter_one"></div>
+
     <section class="fh5co-top-banner mb-4">
         <div class="top-banner__inner site-container">
             <div class="w-100">
-                <h1 class="text-white text-center">Interactive White <span class="border_bottom" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
+                <h1 class="text-white text-center">Interactive White <span style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
             </div>
         </div>
     </section>
@@ -68,7 +70,14 @@
             <div class="card shadow border_radius chapter_box chapter-one-box">
                 <div class="card-body">
                     <div id="chapter-one" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner">
+                        <ol class="carousel-indicators">
+                            <li data-target="#chapter-one" data-slide-to="0" class="active"></li>
+                            <li data-target="#chapter-one" data-slide-to="1"></li>
+                            <li data-target="#chapter-one" data-slide-to="2"></li>
+                            <li data-target="#chapter-one" data-slide-to="3"></li>
+                            <li data-target="#chapter-one" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner  text-justify">
 
                             <!-- chapter 1/1 -->
                             <div class="carousel-item active">
@@ -76,7 +85,7 @@
 
                                     <div class="col-md-6 my-auto">
                                         <h1 class="display-3" data-aos="fade-right" data-aos-duration="1000">The Power to Know</h1>
-                                        <h3 style="line-height: 35px;" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
+                                        <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
                                             Grow your business and turn data into intelligence through trusted analytics with embedded AI
                                         </h3>
                                     </div>
@@ -96,11 +105,11 @@
 
                                     <div class="col-md-6 my-auto">
 
-                                        <h3 style="line-height: 35px;">
+                                        <h3>
                                             Analytics is the crux of success for businesses today.
                                         </h3>
                                         <br>
-                                        <h3 style="line-height: 30px;">
+                                        <h3>
                                             To grow revenues or achieve other goals, organizations of all sizes are trying to answer the same questions: how best to differentiate, improve the customer experience, boost employee productivity, strengthen service quality and increase market share.
                                         </h3>
                                         <p>
@@ -125,7 +134,7 @@
                                 <div class="row mb-2">
 
                                     <div class="col-md-6 my-auto">
-                                        <h3 style="line-height: 35px;">
+                                        <h3>
                                             To make it happen, you have to first realize that not all analytics are created equal. And you must be willing to transform and adopt analytics, regardless of budget size or IT resources. Analytics must be accessible to all, from novices to experts, with easy-to-use visualization and reporting for business analysts and all users, or R and Python API integration for developers and data scientists.
                                         </h3>
                                         <p>
@@ -150,11 +159,11 @@
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
 
-                                        <h3 style="line-height: 35px;">
+                                        <h3>
                                             “Organizations at transformational levels of maturity enjoy increased agility, better integration with partners and suppliers, and easier use of advanced predictive and prescriptive forms of analytics. This all translates to competitive advantage and differentiation, which is even higher for mid sized firms because the opportunity of being early adopters is even greater.”
                                         </h3>
                                         <p>
-                                            <h3 style="line-height: 35px;">
+                                            <h3>
                                                 <i>Nick Heudecker, Research Vice President, Gartner</i>
                                             </h3>
                                         </p>
@@ -264,16 +273,16 @@
                         </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#chapter-one" role="button" data-slide="prev">
+                    <!-- <a class="carousel-control-prev" href="#chapter-one" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#chapter-one" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                    </a>
+                    </a> -->
                 </div>
-                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1300">01</h1>
+                <!-- <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1300">01</h1> -->
                 <div class="red_line absolute" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1200"></div>
 
             </div>
@@ -281,11 +290,11 @@
         </div>
     </section>
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
             <a href="#chapter_two" class="btn btn-next-chapter">Click Here For Next Chapter</a>
         </div>
-    </div>
+    </div> -->
 
     <div id="chapter_two" class="chapter"></div>
 
@@ -296,7 +305,12 @@
             <div class="card shadow border_radius chapter_box">
                 <div class="card-body">
                     <div id="chapter-two" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner">
+                        <ol class="carousel-indicators">
+                            <li data-target="#chapter-two" data-slide-to="0" class="active"></li>
+                            <li data-target="#chapter-two" data-slide-to="1"></li>
+                            <li data-target="#chapter-two" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner  text-justify">
 
                             <!-- chapter 2/1 -->
                             <div class="carousel-item active">
@@ -365,27 +379,27 @@
                         </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#chapter-two" role="button" data-slide="prev">
+                    <!-- <a class="carousel-control-prev" href="#chapter-two" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#chapter-two" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                    </a>
+                    </a> -->
                 </div>
-                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">02</h1>
+                <!-- <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">02</h1> -->
                 <!-- <div class="red_line_two absolute"></div> -->
             </div>
 
         </div>
     </section>
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
             <a href="#chapter_three" class="btn btn-next-chapter">Click Here For Next Chapter</a>
         </div>
-    </div>
+    </div> -->
 
     <div id="chapter_three" class="chapter"></div>
     <!-- chapter 3 -->
@@ -395,10 +409,16 @@
 
             <div class="card shadow border_radius chapter_box ch3-one">
                 <div class="card-body ">
+
                     <div class="white_line absolute" data-aos="fade-right" data-aos-duration="2000"></div>
 
                     <div id="chapter-three" class="carousel slide " data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner ">
+                        <ol class="carousel-indicators">
+                            <li data-target="#chapter-three" data-slide-to="0" class="active"></li>
+                            <li data-target="#chapter-three" data-slide-to="1"></li>
+                            <li data-target="#chapter-three" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner  text-justify ">
 
                             <!-- chapter 3/1 -->
                             <div class="carousel-item active ">
@@ -457,26 +477,27 @@
                         </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#chapter-three" role="button" data-slide="prev">
+                    <!-- <a class="carousel-control-prev" href="#chapter-three" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#chapter-three" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                    </a>
+                    </a> -->
+
                 </div>
-                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">03</h1>
+                <!-- <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">03</h1> -->
             </div>
 
         </div>
     </section>
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
             <a href="#chapter_four" class="btn btn-next-chapter">Click Here For Next Chapter</a>
         </div>
-    </div>
+    </div> -->
 
     <div id="chapter_four" class="chapter"></div>
     <!-- chapter 4 -->
@@ -487,15 +508,21 @@
             <div class="card shadow border_radius chapter_box chapter-one-box">
                 <div class="card-body">
                     <div id="chapter-four" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner">
+                        <ol class="carousel-indicators">
+                            <li data-target="#chapter-four" data-slide-to="0" class="active"></li>
+                            <li data-target="#chapter-four" data-slide-to="1"></li>
+                            <li data-target="#chapter-four" data-slide-to="2"></li>
+                            <li data-target="#chapter-four" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner  text-justify">
 
                             <!-- chapter 4/1 -->
                             <div class="carousel-item active">
 
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto" data-aos="fade-up" data-aos-duration="2000">
-                                        <h1 class="display-3">You're the IT Leader</h1>
-                                        <h3 style="line-height: 35px;">
+                                        <h1 class="display-3 text-left">You're the IT Leader</h1>
+                                        <h3>
                                             A key business value in IT is to modernize technology while keeping costs down. SAS believes in staying innovative and lean to enjoy the basic principles: simplicity, affordability, flexibility and relevance.
                                         </h3>
                                         <p>
@@ -602,8 +629,8 @@
                             <div class="carousel-item">
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
-                                        <h1 class="display-3">SAS for Marketing Leaders</h1>
-                                        <h3 style="line-height: 35px;">
+                                        <h1 class="display-3 text-left">SAS for Marketing Leaders</h1>
+                                        <h3>
                                             There is only so much you can do about an economic downturn or the emergence of new competitors. However, in either event, you can get the technology in place that promotes simplicity, control and confidence.
                                         </h3>
                                         <p>
@@ -695,16 +722,16 @@
                         </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#chapter-four" role="button" data-slide="prev">
+                    <!-- <a class="carousel-control-prev" href="#chapter-four" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#chapter-four" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                    </a>
+                    </a> -->
                 </div>
-                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">04</h1>
+                <!-- <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">04</h1> -->
                 <div class="red_line absolute" data-aos="fade-right" data-aos-duration="2000"></div>
 
             </div>
@@ -712,11 +739,11 @@
         </div>
     </section>
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
             <a href="#chapter_five" class="btn btn-next-chapter">Click Here For Next Chapter</a>
         </div>
-    </div>
+    </div> -->
 
     <div id="chapter_five" class="chapter"></div>
 
@@ -727,7 +754,12 @@
             <div class="card shadow border_radius chapter_box">
                 <div class="card-body">
                     <div id="chapter-five" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner">
+                        <ol class="carousel-indicators">
+                            <li data-target="#chapter-five" data-slide-to="0" class="active"></li>
+                            <li data-target="#chapter-five" data-slide-to="1"></li>
+                            <li data-target="#chapter-five" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner  text-justify">
 
                             <!-- chapter 5/1 -->
                             <div class="carousel-item active">
@@ -745,7 +777,7 @@
                             <div class="carousel-item">
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
-                                        <h3 style="line-height: 35px;">
+                                        <h3>
                                             “The reason SAS tops the revenue list for advanced analytics for
                                             the last five years is that SAS solutions are built on a foundation
                                             of machine learning and deep knowledge of analytics. These
@@ -757,7 +789,7 @@
                                             cycle or more mature.”
                                         </h3>
                                         <p>
-                                            <h3 class="font-italic" style="line-height: 35px;">
+                                            <h3 class="font-italic">
                                                 Dave Schubmehl - Research Director for Artificial Intelligence - IDC
                                             </h3>
                                         </p>
@@ -787,27 +819,27 @@
                         </div>
 
                     </div>
-                    <a class="carousel-control-prev" href="#chapter-five" role="button" data-slide="prev">
+                    <!-- <a class="carousel-control-prev" href="#chapter-five" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#chapter-five" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                    </a>
+                    </a> -->
                 </div>
-                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">05</h1>
+                <!-- <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">05</h1> -->
                 <!-- <div class="red_line_two absolute"></div> -->
             </div>
 
         </div>
     </section>
 
-    <div class="row">
+    <!-- <div class="row">
         <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
             <a href="#chapter_six" class="btn btn-next-chapter">Click Here For Next Chapter</a>
         </div>
-    </div>
+    </div> -->
 
     <div id="chapter_six" class="chapter"></div>
 
@@ -819,7 +851,7 @@
             <div class="card shadow border_radius chapter_box chapter-one-box">
                 <div class="card-body">
                     <div id="chapter-six" class="carousel slide" data-ride="carousel" data-interval="false">
-                        <div class="carousel-inner">
+                        <div class="carousel-inner  text-justify">
 
                             <!-- chapter 6/1 -->
                             <div class="carousel-item active">
@@ -827,7 +859,7 @@
                                 <div class="row mb-2">
                                     <div class="col-md-6 my-auto">
                                         <h1 class="display-3" data-aos="fade-up" data-aos-duration="2000">Why SAS?</h1>
-                                        <h3 style="line-height: 35px;" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1200">
+                                        <h3 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1200">
                                             Knowing exactly who you are as a company – and what you want to achieve – can be challenging. Not to mention the potential risks of not knowing what you should know to make intelligent decisions.
                                         </h3>
                                         <p>
@@ -857,7 +889,7 @@
                         <span class="sr-only">Next</span>
                     </a> -->
                 </div>
-                <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">06</h1>
+                <!-- <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">06</h1> -->
                 <!-- <div class="red_line absolute"></div> -->
 
             </div>
@@ -882,6 +914,7 @@
     <a href="javascript:" id="return-to-top" class="text-center"><i class="text-white fa fa-chevron-up fa-3x"></i></a>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-visible/1.2.0/jquery.visible.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="fontawesome-5.7.2/js/all.js"></script>
@@ -946,6 +979,49 @@
                     }
                 }
             });
+
+
+        // var chap1 = $('#chapter_one').offset().top,
+        //     $window1 = $(window);
+
+        // $window1.scroll(function() {
+        //     if ($window1.scrollTop() >= chap1) {
+        //         $(".float-sm li").parent().find('div').removeClass("pull-out");
+        //         $('#ch1').addClass('pull-out');
+        //     } else {
+        //         $('#ch1').removeClass('pull-out');
+        //     }
+        // });
+
+        // var chap2 = $('#chapter_two').offset().top,
+        //     $window2 = $(window);
+
+        // $window2.scroll(function() {
+        //     if ($window2.scrollTop() >= chap2) {
+        //         $(".float-sm li").parent().find('div').removeClass("pull-out");
+        //         $('#ch2').addClass('pull-out');
+        //     } else {
+        //         $('#ch2').removeClass('pull-out');
+        //     }
+        // });
+
+        if ($('#chapter_two').visible(true)) {
+            $('#ch2').addClass('pull-out');
+        } else {
+            $('#ch2').removeClass('pull-out');
+        }
+
+        // var chap3 = $('#chapter_three').offset().top,
+        //     $window3 = $(window);
+
+        // $window3.scroll(function() {
+        //     if ($window3.scrollTop() >= chap3) {
+        //         $(".float-sm li").parent().find('div').removeClass("pull-out");
+        //         $('#ch3').addClass('pull-out');
+        //     } else {
+        //         $('#ch3').removeClass('pull-out');
+        //     }
+        // });
     </script>
 
 </body>

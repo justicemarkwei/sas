@@ -40,8 +40,11 @@ src: url(../font/AvenirNextLTPro-Regular.woff);
 .site-navigation {
   /* position: fixed; */
   /* top: 4.6%; */
+  
+  position: fixed;
+  /* padding: .3rem; */
   width: 100%;
-  z-index: 2;
+  z-index: 1;
   background: #007dc3;
   padding: 1rem 0;
   /* opacity: .2; */

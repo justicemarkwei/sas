@@ -39,8 +39,32 @@ html, body {
   -webkit-box-shadow: 0px 4px 11px -6px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 4px 11px -6px rgba(0, 0, 0, 0.75);
   background: rgba(0, 125, 195, 0.71) !important;
-  position: fixed;
-  padding: .3rem;
+}
+
+.carousel-indicators li {
+  background-color: #f58220;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators .active {
+  width: 25px;
+  height: 25px;
+  -webkit-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.carousel-indicators {
+  bottom: -80px !important;
+}
+
+.pull-out {
+  right: -9%;
 }
 
 .chapter {
@@ -49,7 +73,7 @@ html, body {
   transition: all 0.3s ease;
 }
 
-#chapter_one, #chapter_two, #chapter_three, #chapter_four, #chapter_five, #chapter_six {
+#chapter_two, #chapter_three, #chapter_four, #chapter_five, #chapter_six {
   margin-bottom: 6rem;
 }
 
@@ -67,10 +91,6 @@ html, body {
 
 .demi {
   font-family: 'Avenir Next LT Pro Demi';
-}
-
-.border_bottom {
-  border-bottom: 6px solid #db3856;
 }
 
 .absolute {
