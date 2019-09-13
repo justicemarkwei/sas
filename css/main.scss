@@ -74,6 +74,9 @@ html,body{
 }
 .pull-out{
     right:-9%;
+    @media(max-width: 768px){
+        right: -35%;
+    }
 }
 .chapter{
     -webkit-transition: all 0.3s linear;

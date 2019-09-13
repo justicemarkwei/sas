@@ -56,10 +56,11 @@
     <section class="fh5co-top-banner mb-4">
         <div class="top-banner__inner site-container">
             <div class="w-100">
-                <h1 class="text-white text-center">Interactive White <span style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
+                <h1 class="text-center blue" style="font-size:1px;">Interactive White <span class=" blue" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
             </div>
         </div>
     </section>
+    <h1 class="text-white text-center">Interactive White <span style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
 
     <div class="orange_box_outline_1"></div>
 
@@ -85,7 +86,7 @@
                                     <div class="row mb-2">
 
                                         <div class="col-md-6 my-auto">
-                                            <h1 class="display-3" data-aos="fade-right" data-aos-duration="1000">The Power to Know</h1>
+                                            <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">The Power to Know</h1>
                                             <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
                                                 Grow your business and turn data into intelligence through trusted analytics with embedded AI
                                             </h3>
@@ -908,7 +909,7 @@
                 </div>
             </div>
             <div class="col-2 bg-blue text-center">
-                <img src="img/logo.png" style="width:50%;" alt="">
+                <!-- <img src="img/logo.png" style="width:50%;" alt=""> -->
             </div>
         </div>
     </footer>
@@ -1011,27 +1012,27 @@
         $(window).scroll(function() {
             var windscroll = $(window).scrollTop();
             if (windscroll >= 100) {
-                if ($('#chapter_one').position().top <= windscroll +30) {
+                if ($('#chapter_one').position().top <= windscroll + 30) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch1').addClass('pull-out');
                 }
-                if ($('#chapter_two').position().top <= windscroll  +30) {
+                if ($('#chapter_two').position().top <= windscroll + 30) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch2').addClass('pull-out');
                 }
-                if ($('#chapter_three').position().top <= windscroll  +30) {
+                if ($('#chapter_three').position().top <= windscroll + 30) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch3').addClass('pull-out');
                 }
-                if ($('#chapter_four').position().top <= windscroll  +30) {
+                if ($('#chapter_four').position().top <= windscroll + 30) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch4').addClass('pull-out');
                 }
-                if ($('#chapter_five').position().top <= windscroll  +30) {
+                if ($('#chapter_five').position().top <= windscroll + 30) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch5').addClass('pull-out');
                 }
-                if ($('#chapter_six').position().top <= windscroll  +30) {
+                if ($('#chapter_six').position().top <= windscroll + 30) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch6').addClass('pull-out');
                 }
