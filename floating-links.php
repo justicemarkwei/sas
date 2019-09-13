@@ -1,6 +1,6 @@
 <!-- Floating Social Media bar Starts -->
 <div class="float-sm">
-    <div id="ch1" class="fl-fl float-fb">
+    <div id="ch1" class="fl-fl float-fb pull-out">
         <a id="home" href="javascript:">01-Chapter One</a>
     </div>
     <div id="ch2" class="fl-fl float-tw">
