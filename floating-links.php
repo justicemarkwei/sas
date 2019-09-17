@@ -15,8 +15,8 @@
     <div id="ch5" class="fl-fl float-ig">
         <a href="#chapter_five">05-Chapter Five</a>
     </div>
-    <div id="ch6" class="fl-fl float-pn">
+    <!-- <div id="ch6" class="fl-fl float-pn">
         <a href="#chapter_six">06-Chapter Six</a>
-    </div>
+    </div> -->
 </div>
 <!-- Floating Social Media bar Ends -->

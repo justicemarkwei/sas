@@ -44,7 +44,7 @@ src: url(../font/AvenirNextLTPro-Regular.woff);
   position: fixed;
   /* padding: .3rem; */
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   background: #007dc3;
   padding: 1rem 0;
   /* opacity: .2; */
@@ -127,7 +127,7 @@ src: url(../font/AvenirNextLTPro-Regular.woff);
   /* background-image: url("../images/top-banner-bckg.jpg"); */
   background-position: center;
   background-size: cover;
-  padding-top: 1vh;
+  padding-top: 10vh;
 }
   .fh5co-top-banner::after {
     content: '';

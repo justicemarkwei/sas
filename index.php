@@ -28,7 +28,7 @@
             <a href="."> <img src="img/logo.png" width="110" alt="Sas logo"></a>
             <!-- <h1 class="text-white text-center">Interactive White <span class="border_bottom" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1> -->
 
-            <div class="main-navigation">
+            <div class="main-navigation" hidden>
                 <ul class="main-navigation__ul font">
                     <li class="font"><a href="#">Homepage</a></li>
                     <li><a href="#">Page 1</a></li>
@@ -37,7 +37,7 @@
                     <li><a href="#">Page 4</a></li>
                 </ul>
             </div>
-            <div id="myBtn" class="burger-container" onclick="myFunction(this)">
+            <div id="myBtn" class="burger-container" onclick="myFunction(this)" hidden>
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -56,11 +56,11 @@
     <section class="fh5co-top-banner mb-4">
         <div class="top-banner__inner site-container">
             <div class="w-100">
-                <h1 class="text-center blue" style="font-size:1px;">Interactive White <span class=" blue" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
+                <!-- <h1 class="text-center blue" style="font-size:1px;">Interactive White <span class=" blue" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1> -->
             </div>
         </div>
     </section>
-    <h1 class="text-white text-center">Interactive White <span style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1>
+    <!-- <h1 class="text-white text-center">Interactive White <span style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1> -->
 
     <div class="orange_box_outline_1"></div>
 
@@ -68,7 +68,6 @@
         <!-- chapter 1 -->
         <section>
             <div class="site-container">
-
                 <div class="card shadow border_radius chapter_box chapter-one-box">
                     <div class="card-body">
                         <div id="chapter-one" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -79,14 +78,14 @@
                                 <li data-target="#chapter-one" data-slide-to="3"></li>
                                 <li data-target="#chapter-one" data-slide-to="4"></li>
                             </ol>
-                            <div class="carousel-inner  text-justify">
+                            <div class="carousel-inner">
 
                                 <!-- chapter 1/1 -->
                                 <div class="carousel-item active">
                                     <div class="row mb-2">
 
                                         <div class="col-md-6 my-auto">
-                                            <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">The Power to Know</h1>
+                                            <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">The Power to Know&reg;</h1>
                                             <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
                                                 Grow your business and turn data into intelligence through trusted analytics with embedded AI
                                             </h3>
@@ -124,7 +123,7 @@
                                             <div class="">
                                                 <img class="w-100 h-100" src="img/ch1_img1.png" alt="Chapter 1 Cover Image">
                                             </div>
-                                            <h5 class="wine pagex"> <span class="page">1</span> /1</h5>
+                                            <!-- <h5 class="wine pagex"> <span class="page">1</span> /1</h5> -->
 
                                         </div>
                                     </div>
@@ -150,7 +149,7 @@
                                             <div>
                                                 <img class="w-100 h-100" src="img/ch1_img2.png" alt="Chapter 1 Cover Image">
                                             </div>
-                                            <h5 class="wine pagex"> <span class="page">2</span> /1</h5>
+                                            <!-- <h5 class="wine pagex"> <span class="page">2</span> /1</h5> -->
 
                                         </div>
                                     </div>
@@ -176,7 +175,7 @@
                                             <div>
                                                 <img class="w-100 h-100" src="img/ch1_img3.png" alt="Chapter 1 Cover Image">
                                             </div>
-                                            <h5 class="wine pagex"> <span class="page">3</span> /1</h5>
+                                            <!-- <h5 class="wine pagex"> <span class="page">3</span> /1</h5> -->
                                         </div>
                                     </div>
                                 </div>
@@ -229,10 +228,13 @@
                                                     </h5>
                                                 </p>
                                                 <p>
-                                                    <h5>
+                                                    <h5 id="sas" style="display: none;">
                                                         SAS knows the what, the why and how of becoming a data-driven organisation, and can offer guidance on real-life applications – and results – of data visualization and advanced analytics.
                                                     </h5>
                                                 </p>
+
+                                                <div id="more-sas" class="cursor blue">More...</div>
+
                                         </div>
 
                                         <div class="col-md-4">
@@ -241,7 +243,7 @@
                                             </p>
                                             <p>
                                                 <h5 class="blue">
-                                                    Ethical Intelligence
+                                                    Ethical intelligence
                                                 </h5>
                                             </p>
                                             <p>
@@ -255,18 +257,18 @@
                                                 </h5>
                                             </p>
                                             <p>
-                                                <h5>
+                                                <h5 class="the-dave" style="display: none;">
                                                     “The reason SAS tops the revenue list for advanced analytics for the last five years is that SAS solutions are built on a foundation of machine learning and deep knowledge of analytics. These are part of SAS’ DNA. Combining SAS’ knowledge and technology with its continued push to innovate in computer vision, NLP and deep learning will drive further adoption of AI across multiple industries. And it will help companies interested in AI – whether early in their AI and analytics life cycle or more mature.”
                                                 </h5>
                                             </p>
                                             <p>
-                                                <h5>
+                                                <h5 class="the-dave" style="display: none;">
                                                     <i>
                                                         Dave Schubmehl, Research Director for Artificial Intelligence, IDC
                                                     </i>
                                                 </h5>
                                             </p>
-                                            <h5 class="wine pagex"> <span class="page">4</span> /1</h5>
+                                            <div id="more-the-dave" class="cursor blue">More...</div>
 
                                         </div>
                                     </div>
@@ -310,7 +312,7 @@
                             <ol class="carousel-indicators">
                                 <li data-target="#chapter-two" data-slide-to="0" class="active"></li>
                                 <li data-target="#chapter-two" data-slide-to="1"></li>
-                                <li data-target="#chapter-two" data-slide-to="2"></li>
+                                <!-- <li data-target="#chapter-two" data-slide-to="2"></li> -->
                             </ol>
                             <div class="carousel-inner  text-justify">
 
@@ -318,8 +320,8 @@
                                 <div class="carousel-item active">
 
                                     <div class="row">
-                                        <div class="col-md-6 m-auto text-center chapter-video-box" data-aos="zoom-in" data-aos-duration="1000">
-                                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <div class="col-md-8 m-auto text-center chapter-video-box" data-aos="zoom-in" data-aos-duration="1000">
+                                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                     <div class="red_line_two absolute" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1100"></div>
@@ -360,7 +362,7 @@
                                             <p class="p-5">
                                                 <img src="img/ch2-balance.png" alt="Simple">
                                             </p>
-                                            <h5 class="wine pagex"> <span class="page">1</span> /2</h5>
+                                            <!-- <h5 class="wine pagex"> <span class="page">1</span> /2</h5> -->
 
                                         </div>
                                     </div>
@@ -368,7 +370,7 @@
                                 </div>
 
                                 <!-- chapter 2/3 -->
-                                <div class="carousel-item">
+                                <!-- <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-md-6 m-auto text-center chapter-video-box">
                                             <iframe width="100%" height="315" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -376,7 +378,7 @@
                                         </div>
                                     </div>
                                     <div class="red_line_two absolute"></div>
-                                </div>
+                                </div> -->
 
                             </div>
 
@@ -516,7 +518,7 @@
                                 <li data-target="#chapter-four" data-slide-to="2"></li>
                                 <li data-target="#chapter-four" data-slide-to="3"></li>
                             </ol>
-                            <div class="carousel-inner  text-justify">
+                            <div class="carousel-inner">
 
                                 <!-- chapter 4/1 -->
                                 <div class="carousel-item active">
@@ -546,10 +548,11 @@
                                 <div class="carousel-item">
                                     <div class="row mb-2">
                                         <div class="col text-center">
-                                            <h1 class="display-4">Let SAS® Be Your Guide</h1>
+                                            <h1 class="display-4">Let SAS Be Your Guide</h1>
                                         </div>
                                     </div>
                                     <div class="row">
+
                                         <div class="col-md-3">
                                             <p>
                                                 <div class="key-round "> <span class="display-4 grey">1</span></div>
@@ -558,18 +561,20 @@
                                                 <h5 class="blue">
                                                     Keep it simple
                                                 </h5>
-                                                <h6>SAS helps you: maintain current infrastructure and innovate with learner resources. </h6>
+                                                <h5>SAS helps you: maintain current infrastructure and innovate with learner resources. </h5>
                                             </p>
                                             <p>
-                                                <h6>
+                                                <h5>
                                                     You may be all too familiar with the challenge of bringing in new technology without disrupting business continuity or revenue growth. Free up your already overextended IT staff to innovate.
-                                                </h6>
+                                                </h5>
                                             </p>
                                             <p>
-                                                <h6>
+                                                <h5 id="sas2" style="display: none;">
                                                     SAS takes a straightforward approach to managing complexities by providing software that’s easy to integrate, complements the investments you’ve already made, has minimal IT dependency and provides scalability.
-                                                </h6>
+                                                </h5>
                                             </p>
+
+                                            <div id="more-sas2" class="cursor blue">More...</div>
                                         </div>
 
                                         <div class="col-md-3">
@@ -579,14 +584,19 @@
                                                     <h5 class="blue">
                                                         Ensure affordability
                                                     </h5>
-                                                    <h6>SAS helps you: manage a portfolio of diverse technologies on a limited budget.</h6>
+                                                    <h5>SAS helps you: manage a portfolio of diverse technologies on a limited budget.</h5>
                                                 </p>
                                                 <p>
-                                                    <h6>
-                                                        Many companies are managing legacy systems that are threaded together with a dozen or more technology products. Some organisations are stuck this way due to the assumption that updating and streamlining applications is too expensive. SAS has solutions for any size budget that enable you to only pay for what you need, without tying up huge amounts of capital. Furthermore, SAS paves the way for you to enjoy an immediate return on investment.
-                                                    </h6>
+                                                    <h5>
+                                                        Many companies are managing legacy systems that are threaded together with a dozen or more technology products.
+                                                    </h5>
                                                 </p>
-
+                                                <p>
+                                                    <h5 id="some" style="display:none;">
+                                                        Some organisations are stuck this way due to the assumption that updating and streamlining applications is too expensive. SAS has solutions for any size budget that enable you to only pay for what you need, without tying up huge amounts of capital. Furthermore, SAS paves the way for you to enjoy an immediate return on investment.
+                                                    </h5>
+                                                </p>
+                                                <div id="more-some" class="cursor blue">More...</div>
                                         </div>
 
                                         <div class="col-md-3">
@@ -597,14 +607,19 @@
                                                 <h5 class="blue">
                                                     Maintain flexibility
                                                 </h5>
-                                                <h6>SAS helps you: protect data from risk while giving users freedom to access it.</h6>
+                                                <h5>SAS helps you: protect data from risk while giving users freedom to access it.</h5>
                                             </p>
                                             <p>
-                                                <h6>
-                                                    With a lean staff, you don’t necessarily have the luxury of dedicating resources solely to security and data governance. However, with SAS, you can enforce policies and establish one view of data that encourages team collaboration without putting information at risk. What’s more, you can control and manage big data, protect your business from network threats and scale your platform as needs grow and change.
-                                                </h6>
+                                                <h5>
+                                                    With a lean staff, you don’t necessarily have the luxury of dedicating resources solely to security and data governance.
+                                                </h5>
                                             </p>
-
+                                            <p>
+                                                <h5 id="however" style="display:none;">
+                                                    However, with SAS, you can enforce policies and establish one view of data that encourages team collaboration without putting information at risk. What’s more, you can control and manage big data, protect your business from network threats and scale your platform as needs grow and change.
+                                                </h5>
+                                            </p>
+                                            <div id="more-however" class="cursor blue">More...</div>
                                         </div>
 
                                         <div class="col-md-3">
@@ -615,14 +630,20 @@
                                                 <h5 class="blue">
                                                     Keep it relevant
                                                 </h5>
-                                                <h6>SAS helps you: stay educated on analytics capabilities and dealing with big data.</h6>
+                                                <h5>SAS helps you: stay educated on analytics capabilities and dealing with big data.</h5>
                                             </p>
                                             <p>
-                                                <h6>
-                                                    If you make the decision to modernize, we can put you on the right path to overcome technology and skills gaps and turn your big data into smarter insights. SAS has a proven track record of solving business challenges, no matter the size. That’s because we understand your need for an easily installed and managed software and can support you in maintaining a skilled, responsive support network.
-                                                </h6>
+                                                <h5>
+                                                    If you make the decision to modernize, we can put you on the right path to overcome technology and skills gaps and turn your big data into smarter insights.
+                                                </h5>
                                             </p>
-                                            <h5 class="wine pagex"> <span class="page">1</span> /4</h5>
+                                            <p>
+                                                <h5 id="sas3" style="display:none;">
+                                                    SAS has a proven track record of solving business challenges, no matter the size. That’s because we understand your need for an easily installed and managed software and can support you in maintaining a skilled, responsive support network.
+                                                </h5>
+                                            </p>
+                                            <div id="more-sas3" class="cursor blue">More...</div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -645,7 +666,7 @@
                                             <div class="">
                                                 <img class="w-100 h-100" src="img/ch4_img1.png" alt="Chapter 1 Cover Image">
                                             </div>
-                                            <h5 class="wine pagex"> <span class="page">2</span> /4</h5>
+                                            <!-- <h5 class="wine pagex"> <span class="page">2</span> /4</h5> -->
                                         </div>
                                     </div>
                                 </div>
@@ -654,7 +675,7 @@
                                 <div class="carousel-item">
                                     <div class="row mb-2">
                                         <div class="col text-center">
-                                            <h1 class="display-4">Let SAS® Be Your Guide</h1>
+                                            <h1 class="display-4">Let SAS Be Your Guide</h1>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -714,7 +735,7 @@
                                                     Companies want to identify their customers across multiple channels. To do so, they need a single view of all customers. SAS offers you deeper insight with embedded predictive marketing and enables you to engage with customers contextually across inbound and outbound channels.
                                                 </h5>
                                             </p>
-                                            <h5 class="wine pagex"> <span class="page">3</span> /4</h5>
+                                            <!-- <h5 class="wine pagex"> <span class="page">3</span> /4</h5> -->
                                         </div>
 
 
@@ -747,10 +768,10 @@
         </div>
     </div> -->
 
-        <div id="chapter_five" class="chapter"></div>
+        <!-- <div id="chapter_five" class="chapter"></div> -->
 
         <!-- chapter 5 -->
-        <section class="mt-5">
+        <section class="mt-5" hidden>
             <div class="site-container">
 
                 <div class="card shadow border_radius chapter_box">
@@ -843,9 +864,9 @@
         </div>
     </div> -->
 
-        <div id="chapter_six" class="chapter"></div>
+        <div id="chapter_five" class="chapter"></div>
 
-        <!-- Chapter six -->
+        <!-- Chapter five -->
         <section class="mt-5 relative">
             <!-- <div class="orange_box_outline_2"></div> -->
             <div class="site-container">
@@ -926,16 +947,75 @@
 
     <script>
         AOS.init();
+
+        $('#more-sas').click(function() {
+            $("#sas").toggle('fast', function() {
+                if ($(this).is(':visible')) {
+                    $('#more-sas').html("Less...");
+                } else {
+                    $('#more-sas').html("More...");
+                }
+            });
+        });
+
+        $('#more-the-dave').click(function() {
+            $(".the-dave").toggle('fast', function() {
+                if ($(this).is(':visible')) {
+                    $('#more-the-dave').html("Less...");
+                } else {
+                    $('#more-the-dave').html("More...");
+                }
+            });
+        });
+
+        $('#more-sas2').click(function() {
+            $("#sas2").toggle('fast', function() {
+                if ($(this).is(':visible')) {
+                    $('#more-sas2').html("Less...");
+                } else {
+                    $('#more-sas2').html("More...");
+                }
+            });
+        });
+        $('#more-some').click(function() {
+            $("#some").toggle('fast', function() {
+                if ($(this).is(':visible')) {
+                    $('#more-some').html("Less...");
+                } else {
+                    $('#more-some').html("More...");
+                }
+            });
+        });
+
+        $('#more-however').click(function() {
+            $("#however").toggle('fast', function() {
+                if ($(this).is(':visible')) {
+                    $('#more-however').html("Less...");
+                } else {
+                    $('#more-however').html("More...");
+                }
+            });
+        });
+
+        $('#more-sas3').click(function() {
+            $("#sas3").toggle('fast', function() {
+                if ($(this).is(':visible')) {
+                    $('#more-sas3').html("Less...");
+                } else {
+                    $('#more-sas3').html("More...");
+                }
+            });
+        });
+
+
         // ===== Scroll to Top ==== 
         $(window).scroll(function() {
             if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
                 $('#return-to-top').fadeIn(200); // Fade in the arrow
                 $('.site-navigation').addClass('box-shadow');
-
             } else {
                 $('#return-to-top').fadeOut(200); // Else fade out the arrow
                 $('.site-navigation').removeClass('box-shadow');
-
             }
         });
         $('#return-to-top, #home').click(function() { // When arrow is clicked
@@ -944,10 +1024,9 @@
             }, 500);
         });
 
-
         // smooth scroll effect
         // Select all links with hashes
-        $('a[href*="#chapter_two"],a[href*="#chapter_three"],a[href*="#chapter_four"],a[href*="#chapter_five"],a[href*="#chapter_six"]')
+        $('a[href*="#chapter_two"],a[href*="#chapter_three"],a[href*="#chapter_four"],a[href*="#chapter_five"]')
             // Remove links that don't actually link to anything
             .not('[href="#"]')
             .not('[href="#0"]')
@@ -983,59 +1062,30 @@
                 }
             });
 
-
-        // var chap1 = $('#chapter_one').offset().top,
-        //     $window1 = $(window);
-
-        // $window1.scroll(function() {
-        //     if ($window1.scrollTop() >= chap1) {
-        //         $(".float-sm li").parent().find('div').removeClass("pull-out");
-        //         $('#ch1').addClass('pull-out');
-        //     } else {
-        //         $('#ch1').removeClass('pull-out');
-        //     }
-        // });
-
-        // var chap2 = $('#chapter_two').offset().top,
-        //     $window2 = $(window);
-
-        // $window2.scroll(function() {
-        //     if ($window2.scrollTop() >= chap2) {
-        //         $(".float-sm li").parent().find('div').removeClass("pull-out");
-        //         $('#ch2').addClass('pull-out');
-        //     } else {
-        //         $('#ch2').removeClass('pull-out');
-        //     }
-        // });
-
-
         $(window).scroll(function() {
             var windscroll = $(window).scrollTop();
             if (windscroll >= 100) {
-                if ($('#chapter_one').position().top <= windscroll + 30) {
+                if ($('#chapter_one').position().top <= windscroll + 200) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch1').addClass('pull-out');
                 }
-                if ($('#chapter_two').position().top <= windscroll + 30) {
+                if ($('#chapter_two').position().top <= windscroll +200) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch2').addClass('pull-out');
                 }
-                if ($('#chapter_three').position().top <= windscroll + 30) {
+                if ($('#chapter_three').position().top <= windscroll + 200) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch3').addClass('pull-out');
                 }
-                if ($('#chapter_four').position().top <= windscroll + 30) {
+                if ($('#chapter_four').position().top <= windscroll + 200) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch4').addClass('pull-out');
                 }
-                if ($('#chapter_five').position().top <= windscroll + 30) {
+                if ($('#chapter_five').position().top <= windscroll + 200) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch5').addClass('pull-out');
                 }
-                if ($('#chapter_six').position().top <= windscroll + 30) {
-                    $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
-                    $('#ch6').addClass('pull-out');
-                }
+               
             }
         }).scroll();
     </script>

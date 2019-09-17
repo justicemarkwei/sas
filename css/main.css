@@ -79,8 +79,8 @@ html, body {
   transition: all 0.3s ease;
 }
 
-#chapter_two, #chapter_three, #chapter_four, #chapter_five, #chapter_six {
-  margin-bottom: 6rem;
+#chapter_two, #chapter_three, #chapter_four, #chapter_five {
+  margin-bottom: 18rem;
 }
 
 .orange {
@@ -144,7 +144,7 @@ html, body {
 }
 
 .chapter-video-box {
-  padding: 4rem;
+  padding-top: 4rem;
   z-index: 1;
 }
 
@@ -178,6 +178,10 @@ html, body {
   .carousel-control-next, .carousel-control-prev {
     top: 92%;
   }
+}
+
+.cursor {
+  cursor: pointer;
 }
 
 .carousel-control-next {
@@ -218,6 +222,7 @@ html, body {
 
 .chapter_box {
   min-height: 570px;
+  margin-bottom: 10rem;
 }
 
 .chapter-one-box {
