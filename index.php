@@ -422,7 +422,7 @@
                                 <li data-target="#chapter-three" data-slide-to="1"></li>
                                 <li data-target="#chapter-three" data-slide-to="2"></li>
                             </ol>
-                            <div class="carousel-inner  text-justify ">
+                            <div class="carousel-inner">
 
                                 <!-- chapter 3/1 -->
                                 <div class="carousel-item active ">
@@ -448,12 +448,12 @@
                                         <div class="col-md-8 m-auto text-white">
                                             <p class="ch3-cover-text">
                                                 <h1 class="my-auto">
-                                                    “Automating the replenishment process saves stores approximately nine hours a week. In addition, we have significantly fewer stock-outs.”
+                                                    “From picking up packages to routing them to the right platform to delivering them on time, SAS helps us optimize logistics all over the country.”
                                                 </h1>
                                             </p>
                                             <p>
                                                 <h2 class="font-italic">
-                                                    Johnny Rolsted, Logistics Team Manager, Matas
+                                                    Yann Radenac, Director of Performance and Processes, Relais Colis
                                                 </h2>
                                             </p>
                                         </div>
@@ -1069,7 +1069,7 @@
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch1').addClass('pull-out');
                 }
-                if ($('#chapter_two').position().top <= windscroll +200) {
+                if ($('#chapter_two').position().top <= windscroll + 200) {
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch2').addClass('pull-out');
                 }
@@ -1085,7 +1085,7 @@
                     $(".float-sm").parent().find('.fl-fl').removeClass("pull-out");
                     $('#ch5').addClass('pull-out');
                 }
-               
+
             }
         }).scroll();
     </script>
