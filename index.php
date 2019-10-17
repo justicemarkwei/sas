@@ -50,7 +50,8 @@
 
         </div>
     </nav>
-    <?php include 'floating-links.php'; ?>
+    <?php //include 'floating-links.php'; 
+    ?>
     <div id="chapter_one"></div>
 
     <section class="fh5co-top-banner mb-4">
@@ -85,7 +86,7 @@
                                     <div class="row mb-2">
 
                                         <div class="col-md-6 my-auto">
-                                            <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">The Power to Know&reg;</h1>
+                                            <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">Analytics Is The Crux Of Success &reg;</h1>
                                             <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
                                                 Grow your business and turn data into intelligence through trusted analytics with embedded AI
                                             </h3>
@@ -106,16 +107,16 @@
 
                                         <div class="col-md-6 my-auto">
 
-                                            <h3>
+                                            <!-- <h3>
                                                 Analytics is the crux of success for businesses today.
-                                            </h3>
+                                            </h3> -->
                                             <br>
                                             <h3>
                                                 To grow revenues or achieve other goals, organizations of all sizes are trying to answer the same questions: how best to differentiate, improve the customer experience, boost employee productivity, strengthen service quality and increase market share.
                                             </h3>
                                             <p>
                                                 <h3>
-                                                    The good news is that leaders who make decisions based on data and analytics not only reach these goals, but also exceed them – and we’re not just talking global leaders and organisations. SAS knows small and midsize organisations can harness the power of analytics, too – because we have seen it.
+                                                    The good news is that leaders who make decisions based on data and analytics not only reach these goals, but also exceed them – and we’re not just talking global leaders and organisations. SAS knows small and midsize organisations can harness the power of analytics too – because we have seen it.
                                                 </h3>
                                             </p>
                                         </div>
@@ -161,11 +162,11 @@
                                         <div class="col-md-6 my-auto">
 
                                             <h3>
-                                                “Organizations at transformational levels of maturity enjoy increased agility, better integration with partners and suppliers, and easier use of advanced predictive and prescriptive forms of analytics. This all translates to competitive advantage and differentiation, which is even higher for mid sized firms because the opportunity of being early adopters is even greater.”
+                                                "The reason SAS tops the revenue list for advanced analytics for the last five years is that SAS solutions are built on a foundation of machine learning and deep knowledge of analytics. These are part of SAS’ DNA. Combining SAS’ knowledge and technology with its continued push to innovate in computer vision, NLP and deep learning will drive further adoption of AI across multiple industries. And it will help companies interested in AI – whether early in their AI and analytics life cycle or more mature."
                                             </h3>
                                             <p>
                                                 <h3>
-                                                    <i>Nick Heudecker, Research Vice President, Gartner</i>
+                                                    <i>Dave Schubmehl, Research Director for Artificial Intelligence, IDC</i>
                                                 </h3>
                                             </p>
 
@@ -193,7 +194,7 @@
                                                 <div class="key-round "> <span class="display-4 grey">1</span></div>
                                             </p>
                                             <p>
-                                                <h5 class="blue">
+                                                <h5 class="font-weight-bold">
                                                     Easy-to-use, affordable, results-oriented analytics
                                                 </h5>
                                             </p>
@@ -213,7 +214,7 @@
                                             <p>
                                                 <div class="key-round "> <span class="display-4 grey">2</span></div>
                                                 <p>
-                                                    <h5 class="blue">
+                                                    <h5 class="font-weight-bold">
                                                         Analytics for each role
                                                     </h5>
                                                 </p>
@@ -242,7 +243,7 @@
                                                 <div class="key-round "> <span class="display-4 grey">3</span></div>
                                             </p>
                                             <p>
-                                                <h5 class="blue">
+                                                <h5 class="font-weight-bold">
                                                     Ethical intelligence
                                                 </h5>
                                             </p>
@@ -256,7 +257,7 @@
                                                     SAS can help CIOs and IT professionals better manage their analytics life cycle to enable faster and more informed decision making at scale.
                                                 </h5>
                                             </p>
-                                            <p>
+                                            <!-- <p>
                                                 <h5 class="the-dave" style="display: none;">
                                                     “The reason SAS tops the revenue list for advanced analytics for the last five years is that SAS solutions are built on a foundation of machine learning and deep knowledge of analytics. These are part of SAS’ DNA. Combining SAS’ knowledge and technology with its continued push to innovate in computer vision, NLP and deep learning will drive further adoption of AI across multiple industries. And it will help companies interested in AI – whether early in their AI and analytics life cycle or more mature.”
                                                 </h5>
@@ -267,8 +268,8 @@
                                                         Dave Schubmehl, Research Director for Artificial Intelligence, IDC
                                                     </i>
                                                 </h5>
-                                            </p>
-                                            <div id="more-the-dave" class="cursor blue">More...</div>
+                                            </p> -->
+                                            <!-- <div id="more-the-dave" class="cursor blue">More...</div> -->
 
                                         </div>
                                     </div>
@@ -308,6 +309,8 @@
 
                 <div class="card shadow border_radius chapter_box">
                     <div class="card-body">
+                        <h1 class="display-4 text-center">How SAS Helps Small Businesses Turn Analytics Into Action</h1>
+
                         <div id="chapter-two" class="carousel slide" data-ride="carousel" data-interval="false">
                             <ol class="carousel-indicators">
                                 <li data-target="#chapter-two" data-slide-to="0" class="active"></li>
@@ -321,7 +324,7 @@
 
                                     <div class="row">
                                         <div class="col-md-8 m-auto text-center chapter-video-box" data-aos="zoom-in" data-aos-duration="1000">
-                                            <iframe width="100%" height="400" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <iframe width="854" height="480" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                     <div class="red_line_two absolute" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1100"></div>
@@ -333,32 +336,32 @@
 
                                     <div class="row">
                                         <div class="col-md-4 text-center">
-                                            <p class="p-5">
-                                                <h5 class="blue">
+                                            <a href="#!" class="p-5">
+                                                <h5 class="blue text-uppercase">
                                                     simple, affordable, flexible
                                                 </h5>
-                                            </p>
+                                            </a>
                                             <p class="p-5">
                                                 <img src="img/ch2-hoop.png" alt="Simple">
                                             </p>
                                         </div>
 
                                         <div class="col-md-4 text-center">
-                                            <p class="p-5">
-                                                <h5 class="blue">
+                                            <a href="#!" class="p-5">
+                                                <h5 class="blue text-uppercase">
                                                     data visualizations - better decisions and Growth
                                                 </h5>
-                                            </p>
+                                            </a>
                                             <p class="p-5">
                                                 <img src="img/ch2-search.png" alt="Simple">
                                             </p>
                                         </div>
                                         <div class="col-md-4 text-center">
-                                            <p class="p-5">
-                                                <h5 class="blue">
+                                            <a href="#!" class="p-5">
+                                                <h5 class="blue text-uppercase">
                                                     platform, choice and balance
                                                 </h5>
-                                            </p>
+                                            </a>
                                             <p class="p-5">
                                                 <img src="img/ch2-balance.png" alt="Simple">
                                             </p>
@@ -512,16 +515,229 @@
                 <div class="card shadow border_radius chapter_box chapter-one-box">
                     <div class="card-body">
                         <div id="chapter-four" class="carousel slide" data-ride="carousel" data-interval="false">
-                            <ol class="carousel-indicators">
+                            <!-- <ol class="carousel-indicators">
                                 <li data-target="#chapter-four" data-slide-to="0" class="active"></li>
                                 <li data-target="#chapter-four" data-slide-to="1"></li>
                                 <li data-target="#chapter-four" data-slide-to="2"></li>
                                 <li data-target="#chapter-four" data-slide-to="3"></li>
-                            </ol>
+                            </ol> -->
                             <div class="carousel-inner">
 
+                                <div id="more-content" class="carousel-item active">
+
+
+
+                                    <div class="row mb-2">
+
+                                        <div id="it-col" class="col-md-6 my-auto text-center" data-aos="fade-up" data-aos-duration="2000">
+                                            <h1 class="display-4 text-left">You're the IT Leader</h1>
+                                            <img class="w-75" src="img/ch4_cover.png" alt="Chapter 1 Cover Image" data-aos="zoom-in" data-aos-duration="2000">
+
+                                            <h4 id="key-business" class="text-left">
+                                                A key business value in IT is to modernize technology while keeping costs down. SAS believes in staying innovative and lean to enjoy the basic principles: simplicity, affordability, flexibility and relevance.
+                                            </h4>
+                                            <a id="it-success" href="#key-business">
+                                                <h4 class="font-italic text-left">
+                                                    Click here for our white paper on the secret to IT success
+                                                </h4>
+                                            </a>
+
+                                        </div>
+
+                                        <div id="market-col" class="col-md-6 my-auto text-center">
+                                            <div>
+                                                <h1 class="display-4 text-left">SAS for Marketing Leaders</h1>
+                                                <img class="w-75" src="img/ch4_img1.png" alt="Chapter 1 Cover Image" data-aos="zoom-in" data-aos-duration="2000">
+
+                                                <h4 class="text-left">
+                                                    There is only so much you can do about an economic downturn or the emergence of new competitors. However, in either event, you can get the technology in place that promotes simplicity, control and confidence.
+                                                </h4>
+                                            </div>
+                                            <a id="data-driven" href="#key-business">
+                                                <h4 class="font-italic text-left">
+                                                    What It Takes to Be Data-Driven
+                                                </h4>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div id="it-content" style="display:none;">
+                                        <div class="row mb-2">
+                                            <div class="col text-center">
+                                                <h1 class="display-4">Let SAS Be Your Guide</h1>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+
+                                            <div class="col-md-3">
+                                                <p>
+                                                    <div class="key-round "> <span class="display-4 grey">1</span></div>
+                                                </p>
+                                                <p>
+                                                    <h5 class="font-weight-bold">
+                                                        Keep it simple
+                                                    </h5>
+                                                    <h5>SAS helps you: maintain current infrastructure and innovate with learner resources. </h5>
+                                                </p>
+                                                <p>
+                                                    <h5>
+                                                        You may be all too familiar with the challenge of bringing in new technology without disrupting business continuity or revenue growth. Free up your already overextended IT staff to innovate.
+                                                    </h5>
+                                                </p>
+                                                <p>
+                                                    <h5 id="sas2" style="display: none;">
+                                                        SAS takes a straightforward approach to managing complexities by providing software that’s easy to integrate, complements the investments you’ve already made, has minimal IT dependency and provides scalability.
+                                                    </h5>
+                                                </p>
+
+                                                <div id="more-sas2" class="cursor blue">More...</div>
+                                            </div>
+
+                                            <div class="col-md-3">
+                                                <p>
+                                                    <div class="key-round "> <span class="display-4 grey">2</span></div>
+                                                    <p>
+                                                        <h5 class="font-weight-bold">
+                                                            Ensure affordability
+                                                        </h5>
+                                                        <h5>SAS helps you: manage a portfolio of diverse technologies on a limited budget.</h5>
+                                                    </p>
+                                                    <p>
+                                                        <h5>
+                                                            Many companies are managing legacy systems that are threaded together with a dozen or more technology products.
+                                                        </h5>
+                                                    </p>
+                                                    <p>
+                                                        <h5 id="some" style="display:none;">
+                                                            Some organisations are stuck this way due to the assumption that updating and streamlining applications is too expensive. SAS has solutions for any size budget that enable you to only pay for what you need, without tying up huge amounts of capital. Furthermore, SAS paves the way for you to enjoy an immediate return on investment.
+                                                        </h5>
+                                                    </p>
+                                                    <div id="more-some" class="cursor blue">More...</div>
+                                            </div>
+
+                                            <div class="col-md-3">
+                                                <p>
+                                                    <div class="key-round "> <span class="display-4 grey">3</span></div>
+                                                </p>
+                                                <p>
+                                                    <h5 class="font-weight-bold">
+                                                        Maintain flexibility
+                                                    </h5>
+                                                    <h5>SAS helps you: protect data from risk while giving users freedom to access it.</h5>
+                                                </p>
+                                                <p>
+                                                    <h5>
+                                                        With a lean staff, you don’t necessarily have the luxury of dedicating resources solely to security and data governance.
+                                                    </h5>
+                                                </p>
+                                                <p>
+                                                    <h5 id="however" style="display:none;">
+                                                        However, with SAS, you can enforce policies and establish one view of data that encourages team collaboration without putting information at risk. What’s more, you can control and manage big data, protect your business from network threats and scale your platform as needs grow and change.
+                                                    </h5>
+                                                </p>
+                                                <div id="more-however" class="cursor blue">More...</div>
+                                            </div>
+
+                                            <div class="col-md-3">
+                                                <p>
+                                                    <div class="key-round "> <span class="display-4 grey">4</span></div>
+                                                </p>
+                                                <p>
+                                                    <h5 class="font-weight-bold">
+                                                        Keep it relevant
+                                                    </h5>
+                                                    <h5>SAS helps you: stay educated on analytics capabilities and dealing with big data.</h5>
+                                                </p>
+                                                <p>
+                                                    <h5>
+                                                        If you make the decision to modernize, we can put you on the right path to overcome technology and skills gaps and turn your big data into smarter insights.
+                                                    </h5>
+                                                </p>
+                                                <p>
+                                                    <h5 id="sas3" style="display:none;">
+                                                        SAS has a proven track record of solving business challenges, no matter the size. That’s because we understand your need for an easily installed and managed software and can support you in maintaining a skilled, responsive support network.
+                                                    </h5>
+                                                </p>
+                                                <div id="more-sas3" class="cursor blue">More...</div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="market-content" style="display:none;">
+                                        <div class="row mb-2">
+                                            <div class="col text-center">
+                                                <h1 class="display-4">Let SAS Be Your Guide</h1>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <p>
+                                                    <div class="key-round "> <span class="display-4 grey">1</span></div>
+                                                </p>
+                                                <p>
+                                                    <h5 class="font-weight-bold">
+                                                        Keep it simple
+                                                    </h5>
+                                                    <h5>
+                                                        SAS helps you: stay relevant and agile in a changing market.
+                                                    </h5>
+                                                </p>
+                                                <p>
+                                                    <h5>
+                                                        Five years ago, only 150 marketing technology (martech) solutions were available. Today, there are over 4,000. On average, companies are managing 12 to 20 different martech products. SAS enables marketing teams to simplify their environment with one unified, scalable platform.
+                                                    </h5>
+                                                </p>
+
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <p>
+                                                    <div class="key-round "> <span class="display-4 grey">2</span></div>
+                                                </p>
+                                                <p>
+                                                    <h5 class="font-weight-bold">
+                                                        Stay in control
+                                                    </h5>
+                                                    <h5>
+                                                        SAS helps you: get faster return on investment on a limited technology budget.
+                                                    </h5>
+                                                </p>
+                                                <p>
+                                                    <h5>
+                                                        Companies are cautious about being locked into a pricey, complex platform requiring professional services support to be productive. SAS is priced on a very competitive consumption-based model that gives you ultimate control over how much you spend. Better still, there are no surprises.
+                                                    </h5>
+                                                </p>
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <p>
+                                                    <div class="key-round "> <span class="display-4 grey">3</span></div>
+                                                </p>
+                                                <p>
+                                                    <h5 class="font-weight-bold">
+                                                        Be confident
+                                                    </h5>
+                                                    <h5>
+                                                        SAS helps you: understand what customers want in real time.
+                                                    </h5>
+                                                </p>
+                                                <p>
+                                                    <h5>
+                                                        Companies want to identify their customers across multiple channels. To do so, they need a single view of all customers. SAS offers you deeper insight with embedded predictive marketing and enables you to engage with customers contextually across inbound and outbound channels.
+                                                    </h5>
+                                                </p>
+                                                <!-- <h5 class="wine pagex"> <span class="page">3</span> /4</h5> -->
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
                                 <!-- chapter 4/1 -->
-                                <div class="carousel-item active">
+                                <div class="carousel-item active" hidden>
 
                                     <div class="row mb-2">
                                         <div class="col-md-6 my-auto" data-aos="fade-up" data-aos-duration="2000">
@@ -545,7 +761,7 @@
                                 </div>
 
                                 <!-- chapter 4/2 -->
-                                <div class="carousel-item">
+                                <div class="carousel-item" hidden>
                                     <div class="row mb-2">
                                         <div class="col text-center">
                                             <h1 class="display-4">Let SAS Be Your Guide</h1>
@@ -558,7 +774,7 @@
                                                 <div class="key-round "> <span class="display-4 grey">1</span></div>
                                             </p>
                                             <p>
-                                                <h5 class="blue">
+                                                <h5 class="font-weight-bold">
                                                     Keep it simple
                                                 </h5>
                                                 <h5>SAS helps you: maintain current infrastructure and innovate with learner resources. </h5>
@@ -581,7 +797,7 @@
                                             <p>
                                                 <div class="key-round "> <span class="display-4 grey">2</span></div>
                                                 <p>
-                                                    <h5 class="blue">
+                                                    <h5 class="font-weight-bold">
                                                         Ensure affordability
                                                     </h5>
                                                     <h5>SAS helps you: manage a portfolio of diverse technologies on a limited budget.</h5>
@@ -604,7 +820,7 @@
                                                 <div class="key-round "> <span class="display-4 grey">3</span></div>
                                             </p>
                                             <p>
-                                                <h5 class="blue">
+                                                <h5 class="font-weight-bold">
                                                     Maintain flexibility
                                                 </h5>
                                                 <h5>SAS helps you: protect data from risk while giving users freedom to access it.</h5>
@@ -627,7 +843,7 @@
                                                 <div class="key-round "> <span class="display-4 grey">4</span></div>
                                             </p>
                                             <p>
-                                                <h5 class="blue">
+                                                <h5 class="font-weight-bold">
                                                     Keep it relevant
                                                 </h5>
                                                 <h5>SAS helps you: stay educated on analytics capabilities and dealing with big data.</h5>
@@ -649,7 +865,7 @@
                                 </div>
 
                                 <!-- chapter 4/3 -->
-                                <div class="carousel-item">
+                                <div class="carousel-item" hidden>
                                     <div class="row mb-2">
                                         <div class="col-md-6 my-auto">
                                             <h1 class="display-3 text-left">SAS for Marketing Leaders</h1>
@@ -672,7 +888,7 @@
                                 </div>
 
                                 <!-- chapter 4/4 -->
-                                <div class="carousel-item">
+                                <div class="carousel-item" hidden>
                                     <div class="row mb-2">
                                         <div class="col text-center">
                                             <h1 class="display-4">Let SAS Be Your Guide</h1>
@@ -684,7 +900,7 @@
                                                 <div class="key-round "> <span class="display-4 grey">1</span></div>
                                             </p>
                                             <p>
-                                                <h5 class="blue">
+                                                <h5 class="font-weight-bold">
                                                     Keep it simple
                                                 </h5>
                                                 <h5>
@@ -704,7 +920,7 @@
                                                 <div class="key-round "> <span class="display-4 grey">2</span></div>
                                             </p>
                                             <p>
-                                                <h5 class="blue">
+                                                <h5 class="font-weight-bold">
                                                     Stay in control
                                                 </h5>
                                                 <h5>
@@ -723,7 +939,7 @@
                                                 <div class="key-round "> <span class="display-4 grey">3</span></div>
                                             </p>
                                             <p>
-                                                <h5 class="blue">
+                                                <h5 class="font-weight-bold">
                                                     Be confident
                                                 </h5>
                                                 <h5>
@@ -926,7 +1142,7 @@
         <div class="row">
             <div class="col-10 bg-light-grey">
                 <div class="site-container text-white">
-                    <h3>Questions? Visit <a class="text-white" style="font-size: 1.75rem;" href="https://brand.sas.com" target="_blank"> brand.sas.com</a>. Contact <a class="text-white" style="font-size: 1.75rem;" href="mailto:sas.brand@sas.com"> sas.brand@sas.com</a></h3>
+                    <h3>Questions? Visit <a class="text-white" style="font-size: 1.75rem;" href="https://www.sas.com/en_us/industry/small-midsize-business.html" target="_blank"> brand.sas.com</a>. Contact <a class="text-white" style="font-size: 1.75rem;" href="mailto:sas.brand@sas.com"> sas.brand@sas.com</a></h3>
                 </div>
             </div>
             <div class="col-2 bg-blue text-center">
@@ -947,6 +1163,26 @@
 
     <script>
         AOS.init();
+
+
+        $('#it-success').click(function() {
+            $('#market-col').slideToggle('fast')
+            $('#it-content').slideToggle('fast');
+
+            $('#it-success h4').html(function(i, text) {
+                return text === "Close" ? "Click here for our white paper on the secret to IT success" : "Close";
+            })
+
+        });
+
+        $('#data-driven').click(function() {
+            $('#it-col').slideToggle('fast')
+            $('#market-content').slideToggle('fast');
+
+            $('#data-driven h4').html(function(i, text) {
+                return text === "Close" ? "What It Takes to Be Data-Driven" : "Close";
+            })
+        });
 
         $('#more-sas').click(function() {
             $("#sas").toggle('fast', function() {
