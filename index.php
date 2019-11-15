@@ -86,7 +86,10 @@
                                     <div class="row mb-2">
 
                                         <div class="col-md-6 my-auto">
-                                            <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">Analytics Is The Crux Of Success &reg;</h1>
+                                            <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000" style="font-size:3rem;">Analytics Is The Crux Of Success &reg;
+                                                <br> But not any analytics
+                                            </h1>
+                                            <!-- <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">But not any analytics</h1> -->
                                             <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
                                                 Grow your business and turn data into intelligence through trusted analytics with embedded AI
                                             </h3>
@@ -195,7 +198,7 @@
                                             </p>
                                             <p>
                                                 <h5 class="font-weight-bold">
-                                                    Easy-to-use, affordable, results-oriented analytics
+                                                    Easy-to-use, affordable, results-oriented
                                                 </h5>
                                             </p>
                                             <p>
@@ -215,7 +218,7 @@
                                                 <div class="key-round "> <span class="display-4 grey">2</span></div>
                                                 <p>
                                                     <h5 class="font-weight-bold">
-                                                        Analytics for each role
+                                                        In the cloud
                                                     </h5>
                                                 </p>
                                                 <p>
@@ -244,7 +247,7 @@
                                             </p>
                                             <p>
                                                 <h5 class="font-weight-bold">
-                                                    Ethical intelligence
+                                                    With embedded AI
                                                 </h5>
                                             </p>
                                             <p>
@@ -309,7 +312,7 @@
 
                 <div class="card shadow border_radius chapter_box">
                     <div class="card-body">
-                        <h1 class="display-4 text-center">How SAS Helps Small Businesses Turn Analytics Into Action</h1>
+                        <h1 class="display-4 text-center" style="font-size:3rem;">How SAS Helps Small Businesses Turn Analytics Into Action</h1>
 
                         <div id="chapter-two" class="carousel slide" data-ride="carousel" data-interval="false">
                             <ol class="carousel-indicators">
@@ -324,7 +327,8 @@
 
                                     <div class="row">
                                         <div class="col-md-8 m-auto text-center chapter-video-box" data-aos="zoom-in" data-aos-duration="1000">
-                                            <iframe width="854" height="480" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <!-- <iframe width="854" height="480" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                            <iframe width="854" height="480" src="https://www.youtube.com/embed/ayPWyNkIps8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                     <div class="red_line_two absolute" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1100"></div>
@@ -336,7 +340,7 @@
 
                                     <div class="row">
                                         <div class="col-md-4 text-center">
-                                            <a href="#!" class="p-5">
+                                            <a href="https://www.sas.com/en_us/industry/small-midsize-business.html" target="_blank" class="p-5">
                                                 <h5 class="blue text-uppercase">
                                                     simple, affordable, flexible
                                                 </h5>
@@ -347,7 +351,7 @@
                                         </div>
 
                                         <div class="col-md-4 text-center">
-                                            <a href="#!" class="p-5">
+                                            <a href="https://www.sas.com/en_us/insights/big-data/data-visualization.html" target="_blank" class="p-5">
                                                 <h5 class="blue text-uppercase">
                                                     data visualizations - better decisions and Growth
                                                 </h5>
@@ -357,9 +361,9 @@
                                             </p>
                                         </div>
                                         <div class="col-md-4 text-center">
-                                            <a href="#!" class="p-5">
+                                            <a href="https://www.sas.com/en_us/software/platform.html" target="_blank" class="p-5">
                                                 <h5 class="blue text-uppercase">
-                                                    platform, choice and balance
+                                                    platform, choice and control
                                                 </h5>
                                             </a>
                                             <p class="p-5">
@@ -530,32 +534,34 @@
                                     <div class="row mb-2">
 
                                         <div id="it-col" class="col-md-6 my-auto text-center" data-aos="fade-up" data-aos-duration="2000">
-                                            <h1 class="display-4 text-left">You're the IT Leader</h1>
-                                            <img class="w-75" src="img/ch4_cover.png" alt="Chapter 1 Cover Image" data-aos="zoom-in" data-aos-duration="2000">
+                                            <div class="it-col cursor" title="Click to toggle more">
+                                                <h2 class="display-4 text-left" style="font-size:3rem">You're the IT Leader</h2>
+                                                <img class="w-75" src="img/ch4_cover.png" alt="Chapter 1 Cover Image" data-aos="zoom-in" data-aos-duration="2000">
 
-                                            <h4 id="key-business" class="text-left">
-                                                A key business value in IT is to modernize technology while keeping costs down. SAS believes in staying innovative and lean to enjoy the basic principles: simplicity, affordability, flexibility and relevance.
-                                            </h4>
-                                            <a id="it-success" href="#key-business">
+                                                <h4 id="key-business" class="text-left">
+                                                    A key business value in IT is to modernize technology while keeping costs down. SAS believes in staying innovative and lean to enjoy the basic principles: simplicity, affordability, flexibility and relevance.
+                                                </h4>
+                                            </div>
+                                            <a id="it-success" href="https://www.sas.com/content/dam/SAS/documents/marketing-whitepapers-ebooks/sas-whitepapers/en/secret-to-it-success-110280.pdf" target="_blank">
                                                 <h4 class="font-italic text-left">
-                                                    Click here for our white paper on the secret to IT success
+                                                    Click here for more...
                                                 </h4>
                                             </a>
 
                                         </div>
 
                                         <div id="market-col" class="col-md-6 my-auto text-center">
-                                            <div>
-                                                <h1 class="display-4 text-left">SAS for Marketing Leaders</h1>
-                                                <img class="w-75" src="img/ch4_img1.png" alt="Chapter 1 Cover Image" data-aos="zoom-in" data-aos-duration="2000">
+                                            <div class="data-driven cursor" title="Click to toggle more">
+                                                <h2 class="display-4 text-left" style="font-size:3rem">You’re the Marketing Leader</h2>
+                                                <img class="w-75" src="img/ch4_img10.png" alt="Marketing Leader" data-aos="zoom-in" data-aos-duration="2000">
 
                                                 <h4 class="text-left">
                                                     There is only so much you can do about an economic downturn or the emergence of new competitors. However, in either event, you can get the technology in place that promotes simplicity, control and confidence.
                                                 </h4>
                                             </div>
-                                            <a id="data-driven" href="#key-business">
+                                            <a id="data-driven" href="https://www.sas.com/en_us/whitepapers/tdwi-data-driven-109449.html" target="_blank">
                                                 <h4 class="font-italic text-left">
-                                                    What It Takes to Be Data-Driven
+                                                    Click here for more...
                                                 </h4>
                                             </a>
                                         </div>
@@ -1165,23 +1171,23 @@
         AOS.init();
 
 
-        $('#it-success').click(function() {
+        $('.it-col').click(function() {
             $('#market-col').slideToggle('fast')
             $('#it-content').slideToggle('fast');
 
-            $('#it-success h4').html(function(i, text) {
-                return text === "Close" ? "Click here for our white paper on the secret to IT success" : "Close";
-            })
+            // $('#it-success h4').html(function(i, text) {
+            //     return text === "Close" ? "Click here for our white paper on the secret to IT success" : "Close";
+            // })
 
         });
 
-        $('#data-driven').click(function() {
+        $('.data-driven').click(function() {
             $('#it-col').slideToggle('fast')
             $('#market-content').slideToggle('fast');
 
-            $('#data-driven h4').html(function(i, text) {
-                return text === "Close" ? "What It Takes to Be Data-Driven" : "Close";
-            })
+            // $('#data-driven h4').html(function(i, text) {
+            //     return text === "Close" ? "What It Takes to Be Data-Driven" : "Close";
+            // })
         });
 
         $('#more-sas').click(function() {
