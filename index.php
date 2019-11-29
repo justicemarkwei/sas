@@ -86,12 +86,12 @@
                                     <div class="row mb-2">
 
                                         <div class="col-md-6 my-auto">
-                                            <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000" style="font-size:3rem;">Analytics Is The Crux Of Success &reg;
+                                            <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000" style="font-size:3rem;">Analytics Is The Crux Of Success
                                                 <br> But not any analytics
                                             </h1>
                                             <!-- <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">But not any analytics</h1> -->
                                             <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
-                                                Grow your business and turn data into intelligence through trusted analytics with embedded AI
+                                                Easy to use, affordable, results oriented. In the cloud. With embedded AI.
                                             </h3>
                                         </div>
                                         <div class="col-md-6 my-auto">
@@ -312,7 +312,7 @@
 
                 <div class="card shadow border_radius chapter_box">
                     <div class="card-body">
-                        <h1 class="display-4 text-center" style="font-size:3rem;">How SAS Helps Small Businesses Turn Analytics Into Action</h1>
+                        <h1 class="display-4 text-center" style="font-size:3rem;">How SAS Helps Midsize Businesses Turn Analytics Into Action</h1>
 
                         <div id="chapter-two" class="carousel slide" data-ride="carousel" data-interval="false">
                             <ol class="carousel-indicators">
