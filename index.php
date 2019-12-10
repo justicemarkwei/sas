@@ -542,7 +542,7 @@
                                                     A key business value in IT is to modernize technology while keeping costs down. SAS believes in staying innovative and lean to enjoy the basic principles: simplicity, affordability, flexibility and relevance.
                                                 </h4>
                                             </div>
-                                            <a id="it-success" href="https://www.sas.com/content/dam/SAS/documents/marketing-whitepapers-ebooks/sas-whitepapers/en/secret-to-it-success-110280.pdf" target="_blank">
+                                            <a id="it-success" href="https://www.sas.com/en/whitepapers/secret-to-it-success-110280.html" target="_blank">
                                                 <h4 class="font-italic text-left">
                                                     Click here for more...
                                                 </h4>
