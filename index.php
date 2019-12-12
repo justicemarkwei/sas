@@ -87,7 +87,7 @@
 
                                         <div class="col-md-6 my-auto">
                                             <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000" style="font-size:3rem;">Analytics Is The Crux Of Success
-                                                <br> But not any analytics
+                                                <br> But Not Any A nalytics
                                             </h1>
                                             <!-- <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">But not any analytics</h1> -->
                                             <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
@@ -188,7 +188,7 @@
                                 <div class="carousel-item">
                                     <div class="row mb-2">
                                         <div class="col text-center">
-                                            <h1 class="display-3">Key ingredients to success include:</h1>
+                                            <h1 class="display-3">Key Ingredients to Success Include:</h1>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -1148,7 +1148,7 @@
         <div class="row">
             <div class="col-10 bg-light-grey">
                 <div class="site-container text-white">
-                    <h3>Questions? Visit <a class="text-white" style="font-size: 1.75rem;" href="https://www.sas.com/en_us/industry/small-midsize-business.html" target="_blank"> SAS</a> for Small and Midsize Business. Contact <a class="text-white" style="font-size: 1.75rem;" href="mailto:sas.brand@sas.com"> sas.brand@sas.com</a></h3>
+                    <h3>Questions? Visit <a class="orange" style="font-size: 1.75rem;" href="https://www.sas.com/en_us/industry/small-midsize-business.html" target="_blank"> SAS for Small and Midsize Business.</a> Contact <a class="text-white" style="font-size: 1.75rem;" href="mailto:sas.brand@sas.com"> sas.brand@sas.com</a></h3>
                 </div>
             </div>
             <div class="col-2 bg-blue text-center">
