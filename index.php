@@ -87,7 +87,7 @@
 
                                         <div class="col-md-6 my-auto">
                                             <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000" style="font-size:3rem;">Analytics Is The Crux Of Success
-                                                <br> But Not Any A nalytics
+                                                <br> But Not Any Analytics
                                             </h1>
                                             <!-- <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">But not any analytics</h1> -->
                                             <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
