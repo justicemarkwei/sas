@@ -1147,8 +1147,8 @@
     <footer>
         <div class="row">
             <div class="col-10 bg-light-grey">
-                <div class="site-container text-white">
-                    <h3>Questions? Visit <a class="orange" style="font-size: 1.75rem;" href="https://www.sas.com/en_us/industry/small-midsize-business.html" target="_blank"> SAS for Small and Midsize Business.</a> Contact <a class="text-white" style="font-size: 1.75rem;" href="mailto:sas.brand@sas.com"> sas.brand@sas.com</a></h3>
+                <div class="site-container text-white text-center">
+                    <h3>Questions? Visit <a class="orange" style="font-size: 1.75rem;" href="https://www.sas.com/en_us/industry/small-midsize-business.html" target="_blank"> SAS for Small and Midsize Business.</a></h3>
                 </div>
             </div>
             <div class="col-2 bg-blue text-center">
