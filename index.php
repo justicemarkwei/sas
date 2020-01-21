@@ -26,8 +26,6 @@
     <nav class="site-navigation">
         <div class="site-navigation-inner site-container-small">
             <a href="."> <img src="img/logo.png" width="110" alt="Sas logo"></a>
-            <!-- <h1 class="text-white text-center">Interactive White <span class="border_bottom" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1> -->
-
             <div class="main-navigation" hidden>
                 <ul class="main-navigation__ul font">
                     <li class="font"><a href="#">Homepage</a></li>
@@ -50,19 +48,15 @@
 
         </div>
     </nav>
-    <?php //include 'floating-links.php'; 
-    ?>
+   
     <div id="chapter_one"></div>
 
     <section class="fh5co-top-banner mb-4">
         <div class="top-banner__inner site-container">
             <div class="w-100">
-                <!-- <h1 class="text-center blue" style="font-size:1px;">Interactive White <span class=" blue" style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1> -->
             </div>
         </div>
     </section>
-    <!-- <h1 class="text-white text-center">Interactive White <span style="font-size:2.5rem; padding-bottom:2px;">Paper</span> </h1> -->
-
     <div class="orange_box_outline_1"></div>
 
     <main>
@@ -89,7 +83,6 @@
                                             <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000" style="font-size:3rem;">Analytics Is The Crux Of Success
                                                 <br> But Not Any Analytics
                                             </h1>
-                                            <!-- <h1 class="display-3 text-left" data-aos="fade-right" data-aos-duration="1000">But not any analytics</h1> -->
                                             <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
                                                 Easy to use, affordable, results oriented. In the cloud. With embedded AI.
                                             </h3>
@@ -106,13 +99,8 @@
                                 <!-- chapter 1/2 -->
                                 <div class="carousel-item">
                                     <div class="row mb-2">
-                                        <!-- <h5 class="page">Page 1</h5> -->
-
                                         <div class="col-md-6 my-auto">
 
-                                            <!-- <h3>
-                                                Analytics is the crux of success for businesses today.
-                                            </h3> -->
                                             <br>
                                             <h3>
                                                 To grow revenues or achieve other goals, organizations of all sizes are trying to answer the same questions: how best to differentiate, improve the customer experience, boost employee productivity, strengthen service quality and increase market share.
@@ -153,8 +141,6 @@
                                             <div>
                                                 <img class="w-100 h-100" src="img/ch1_img2.png" alt="Chapter 1 Cover Image">
                                             </div>
-                                            <!-- <h5 class="wine pagex"> <span class="page">2</span> /1</h5> -->
-
                                         </div>
                                     </div>
                                 </div>
@@ -260,20 +246,6 @@
                                                     SAS can help CIOs and IT professionals better manage their analytics life cycle to enable faster and more informed decision making at scale.
                                                 </h5>
                                             </p>
-                                            <!-- <p>
-                                                <h5 class="the-dave" style="display: none;">
-                                                    “The reason SAS tops the revenue list for advanced analytics for the last five years is that SAS solutions are built on a foundation of machine learning and deep knowledge of analytics. These are part of SAS’ DNA. Combining SAS’ knowledge and technology with its continued push to innovate in computer vision, NLP and deep learning will drive further adoption of AI across multiple industries. And it will help companies interested in AI – whether early in their AI and analytics life cycle or more mature.”
-                                                </h5>
-                                            </p>
-                                            <p>
-                                                <h5 class="the-dave" style="display: none;">
-                                                    <i>
-                                                        Dave Schubmehl, Research Director for Artificial Intelligence, IDC
-                                                    </i>
-                                                </h5>
-                                            </p> -->
-                                            <!-- <div id="more-the-dave" class="cursor blue">More...</div> -->
-
                                         </div>
                                     </div>
                                 </div>
@@ -281,29 +253,12 @@
                             </div>
 
                         </div>
-                        <!-- <a class="carousel-control-prev" href="#chapter-one" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#chapter-one" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a> -->
                     </div>
-                    <!-- <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1300">01</h1> -->
                     <div class="red_line absolute" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1200"></div>
-
                 </div>
 
             </div>
         </section>
-
-        <!-- <div class="row">
-        <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
-            <a href="#chapter_two" class="btn btn-next-chapter">Click Here For Next Chapter</a>
-        </div>
-    </div> -->
-
         <div id="chapter_two" class="chapter"></div>
 
         <!-- chapter 2 -->
@@ -318,7 +273,6 @@
                             <ol class="carousel-indicators">
                                 <li data-target="#chapter-two" data-slide-to="0" class="active"></li>
                                 <li data-target="#chapter-two" data-slide-to="1"></li>
-                                <!-- <li data-target="#chapter-two" data-slide-to="2"></li> -->
                             </ol>
                             <div class="carousel-inner  text-justify">
 
@@ -327,7 +281,6 @@
 
                                     <div class="row">
                                         <div class="col-md-8 m-auto text-center chapter-video-box" data-aos="zoom-in" data-aos-duration="1000">
-                                            <!-- <iframe width="854" height="480" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                                             <iframe width="854" height="480" src="https://www.youtube.com/embed/ayPWyNkIps8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         </div>
                                     </div>
@@ -369,49 +322,18 @@
                                             <p class="p-5">
                                                 <img src="img/ch2-balance.png" alt="Simple">
                                             </p>
-                                            <!-- <h5 class="wine pagex"> <span class="page">1</span> /2</h5> -->
-
                                         </div>
                                     </div>
 
                                 </div>
-
-                                <!-- chapter 2/3 -->
-                                <!-- <div class="carousel-item">
-                                    <div class="row">
-                                        <div class="col-md-6 m-auto text-center chapter-video-box">
-                                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/0PvqamNtr9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                            <h5 class="wine pagex"> <span class="page">2</span> /2</h5>
-                                        </div>
-                                    </div>
-                                    <div class="red_line_two absolute"></div>
-                                </div> -->
-
                             </div>
 
                         </div>
-                        <!-- <a class="carousel-control-prev" href="#chapter-two" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#chapter-two" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a> -->
                     </div>
-                    <!-- <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">02</h1> -->
-                    <!-- <div class="red_line_two absolute"></div> -->
                 </div>
 
             </div>
         </section>
-
-        <!-- <div class="row">
-        <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
-            <a href="#chapter_three" class="btn btn-next-chapter">Click Here For Next Chapter</a>
-        </div>
-    </div> -->
-
         <div id="chapter_three" class="chapter"></div>
         <!-- chapter 3 -->
         <section class="mt-5 relative">
@@ -503,13 +425,6 @@
 
             </div>
         </section>
-
-        <!-- <div class="row">
-        <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
-            <a href="#chapter_four" class="btn btn-next-chapter">Click Here For Next Chapter</a>
-        </div>
-    </div> -->
-
         <div id="chapter_four" class="chapter"></div>
         <!-- chapter 4 -->
         <section class="mt-5 relative">
@@ -519,18 +434,8 @@
                 <div class="card shadow border_radius chapter_box chapter-one-box">
                     <div class="card-body">
                         <div id="chapter-four" class="carousel slide" data-ride="carousel" data-interval="false">
-                            <!-- <ol class="carousel-indicators">
-                                <li data-target="#chapter-four" data-slide-to="0" class="active"></li>
-                                <li data-target="#chapter-four" data-slide-to="1"></li>
-                                <li data-target="#chapter-four" data-slide-to="2"></li>
-                                <li data-target="#chapter-four" data-slide-to="3"></li>
-                            </ol> -->
                             <div class="carousel-inner">
-
                                 <div id="more-content" class="carousel-item active">
-
-
-
                                     <div class="row mb-2">
 
                                         <div id="it-col" class="col-md-6 my-auto text-center" data-aos="fade-up" data-aos-duration="2000">
@@ -733,7 +638,6 @@
                                                         Companies want to identify their customers across multiple channels. To do so, they need a single view of all customers. SAS offers you deeper insight with embedded predictive marketing and enables you to engage with customers contextually across inbound and outbound channels.
                                                     </h5>
                                                 </p>
-                                                <!-- <h5 class="wine pagex"> <span class="page">3</span> /4</h5> -->
                                             </div>
 
 
@@ -888,7 +792,6 @@
                                             <div class="">
                                                 <img class="w-100 h-100" src="img/ch4_img1.png" alt="Chapter 1 Cover Image">
                                             </div>
-                                            <!-- <h5 class="wine pagex"> <span class="page">2</span> /4</h5> -->
                                         </div>
                                     </div>
                                 </div>
@@ -967,31 +870,13 @@
                             </div>
 
                         </div>
-                        <!-- <a class="carousel-control-prev" href="#chapter-four" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#chapter-four" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a> -->
                     </div>
-                    <!-- <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">04</h1> -->
                     <div class="red_line absolute" data-aos="fade-right" data-aos-duration="2000"></div>
 
                 </div>
 
             </div>
         </section>
-
-        <!-- <div class="row">
-        <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
-            <a href="#chapter_five" class="btn btn-next-chapter">Click Here For Next Chapter</a>
-        </div>
-    </div> -->
-
-        <!-- <div id="chapter_five" class="chapter"></div> -->
-
         <!-- chapter 5 -->
         <section class="mt-5" hidden>
             <div class="site-container">
@@ -1079,13 +964,6 @@
 
             </div>
         </section>
-
-        <!-- <div class="row">
-        <div class="col text-center btn-next-chapter-box" data-aos="fade-up" data-aos-duration="1000">
-            <a href="#chapter_six" class="btn btn-next-chapter">Click Here For Next Chapter</a>
-        </div>
-    </div> -->
-
         <div id="chapter_five" class="chapter"></div>
 
         <!-- Chapter five -->
@@ -1125,18 +1003,7 @@
                             </div>
 
                         </div>
-                        <!-- <a class="carousel-control-prev" href="#chapter-six" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#chapter-six" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a> -->
                     </div>
-                    <!-- <h1 class="absolute chapter_number blue" data-aos="flip-left" data-aos-duration="1500">06</h1> -->
-                    <!-- <div class="red_line absolute"></div> -->
-
                 </div>
 
             </div>
@@ -1152,7 +1019,6 @@
                 </div>
             </div>
             <div class="col-2 bg-blue text-center">
-                <!-- <img src="img/logo.png" style="width:50%;" alt=""> -->
             </div>
         </div>
     </footer>
@@ -1175,19 +1041,11 @@
             $('#market-col').slideToggle('fast')
             $('#it-content').slideToggle('fast');
 
-            // $('#it-success h4').html(function(i, text) {
-            //     return text === "Close" ? "Click here for our white paper on the secret to IT success" : "Close";
-            // })
-
         });
 
         $('.data-driven').click(function() {
             $('#it-col').slideToggle('fast')
             $('#market-content').slideToggle('fast');
-
-            // $('#data-driven h4').html(function(i, text) {
-            //     return text === "Close" ? "What It Takes to Be Data-Driven" : "Close";
-            // })
         });
 
         $('#more-sas').click(function() {
@@ -1267,7 +1125,6 @@
         });
 
         // smooth scroll effect
-        // Select all links with hashes
         $('a[href*="#chapter_two"],a[href*="#chapter_three"],a[href*="#chapter_four"],a[href*="#chapter_five"]')
             // Remove links that don't actually link to anything
             .not('[href="#"]')
